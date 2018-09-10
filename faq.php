@@ -9,7 +9,7 @@ include('geturl.php');
     <title>FAQ's - <? echo "$yourdomain" ;?></title>
 	<meta name="keywords" content="free, web, hosting, web hosting, faq, web site, search engine optimization, hosting, servers, faqs, frequently, asked, questions, frequently asked questions, availability, created, page">
 	<meta name="description" content="Get Free Professional Web Hosting for your Website">
-	<meta name="author" content="MyOwnFreeHosters">
+	<meta name="author" content="MOFHDevWorld">
 	<meta name="robots" content="index, follow">
 	<meta name="revisit-after" content="5 days">
 	<meta name="theme-color" content="#2196F3">
