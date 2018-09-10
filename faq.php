@@ -6,7 +6,7 @@ include('geturl.php');
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <title>FAQ's - Free Professional Web Hosting</title>
+    <title>FAQ's - <? echo "$yourdomain" ;?></title>
 	<meta name="keywords" content="free, web, hosting, web hosting, faq, web site, search engine optimization, hosting, servers, faqs, frequently, asked, questions, frequently asked questions, availability, created, page">
 	<meta name="description" content="Get Free Professional Web Hosting for your Website">
 	<meta name="author" content="MyOwnFreeHosters">
