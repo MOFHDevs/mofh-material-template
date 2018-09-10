@@ -1,3 +1,6 @@
+<?
+include('geturl.php');    
+?>
 <!DOCTYPE html>
 <html>
 <head>
