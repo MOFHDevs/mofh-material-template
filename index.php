@@ -45,17 +45,17 @@ include('geturl.php');
             <a href="#" id="logo-container" class="brand-logo"><? echo "$yourdomain" ;?></a>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="right hide-on-med-and-down">
                     <li itemprop="name"><a href="#intro" itemprop="url">Service</a></li>
-                    <li><a href="#work" itemprop="url">Work</a></li>
-                    <li><a href="#team" itemprop="url">Team</a></li>
-                    <li><a href="#contact" itemprop="url">Contact</a></li>
-                    <li><a href="https://github.com/joashp/material-design-template" target="_blank" itemprop="url">Download</a></li>
+                    <li itemprop="name"><a href="#work" itemprop="url">Work</a></li>
+                    <li itemprop="name"><a href="#team" itemprop="url">Team</a></li>
+                    <li itemprop="name"><a href="#contact" itemprop="url">Contact</a></li>
+                    <li itemprop="name"><a href="https://github.com/joashp/material-design-template" target="_blank" itemprop="url">Download</a></li>
                 </ul>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" id="nav-mobile" class="side-nav">
-                    <li><a href="#intro" itemprop="url">Service</a></li>
-                    <li><a href="#work" itemprop="url">Work</a></li>
-                    <li><a href="#team" itemprop="url">Team</a></li>
-                    <li><a href="#contact" itemprop="url">Contact</a></li>
-                    <li><a href="https://github.com/joashp/material-design-template" target="_blank" itemprop="url">Download</a></li>
+                    <li itemprop="name"><a href="#intro" itemprop="url">Service</a></li>
+                    <li itemprop="name"><a href="#work" itemprop="url">Work</a></li>
+                    <li itemprop="name"><a href="#team" itemprop="url">Team</a></li>
+                    <li itemprop="name"><a href="#contact" itemprop="url">Contact</a></li>
+                    <li itemprop="name"><a href="https://github.com/joashp/material-design-template" target="_blank" itemprop="url">Download</a></li>
                 </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>
