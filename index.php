@@ -42,18 +42,18 @@ include('geturl.php');
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-            <a href="#" id="logo-container" class="brand-logo"><? echo "$yourdomain" ;?></a>
+            <a href="/" id="logo-container" class="brand-logo"><? echo "$yourdomain" ;?></a>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="right hide-on-med-and-down">
-                    <li itemprop="name"><a href="#intro" itemprop="url">Service</a></li>
-                    <li itemprop="name"><a href="#work" itemprop="url">Work</a></li>
-                    <li itemprop="name"><a href="#team" itemprop="url">Team</a></li>
+                    <li itemprop="name"><a href="free-hosting.php" itemprop="url">Free Hosting</a></li>
+                    <li itemprop="name"><a href="premium-hosting.php" itemprop="url">Premium Hosting</a></li>
+                    <li itemprop="name"><a href="domain.php" itemprop="url">Domains</a></li>
                     <li itemprop="name"><a href="#contact" itemprop="url">Contact</a></li>
                     <li itemprop="name"><a href="https://github.com/joashp/material-design-template" target="_blank" itemprop="url">Download</a></li>
                 </ul>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" id="nav-mobile" class="side-nav">
-                    <li itemprop="name"><a href="#intro" itemprop="url">Service</a></li>
-                    <li itemprop="name"><a href="#work" itemprop="url">Work</a></li>
-                    <li itemprop="name"><a href="#team" itemprop="url">Team</a></li>
+                    <li itemprop="name"><a href="free-hosting.php" itemprop="url">Free Hosting</a></li>
+                    <li itemprop="name"><a href="premium-hosting.php" itemprop="url">Premium Hosting</a></li>
+                    <li itemprop="name"><a href="domain.php" itemprop="url">Domains</a></li>
                     <li itemprop="name"><a href="#contact" itemprop="url">Contact</a></li>
                     <li itemprop="name"><a href="https://github.com/joashp/material-design-template" target="_blank" itemprop="url">Download</a></li>
                 </ul>
@@ -67,12 +67,12 @@ include('geturl.php');
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <h1 class="text_h center header cd-headline letters type">
-            <span>I Love</span> 
             <span class="cd-words-wrapper waiting">
-                <b class="is-visible">creating</b>
-                <b>designing</b>
-                <b>developing</b>
+                <b class="is-visible">Unlimited</b>
+                <b>Professional</b>
+                <b>Reliable</b>
             </span>
+			            <span>Free Hosting</span> 
         </h1>
     </div>
 </div>
@@ -82,7 +82,8 @@ include('geturl.php');
     <div class="container">
         <div class="row">
             <div  class="col s12">
-                <h2 class="center header text_h2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="span_h2"> Phasellus  </span>vestibulum lorem risus, nec suscipit lorem <span class="span_h2"> laoreet quis.</span> </h2>
+                <h2 class="center header text_h2"> Welcome to our <span class="span_h2">free</span> web hosting!</h2>
+				<h4 class="center header text_h4">nec suscipit lorem <span class="span_h2"> laoreet quis.</span> </h4>
             </div>
 
             <div  class="col s12 m4 l4">

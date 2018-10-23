@@ -4,7 +4,7 @@ if(isset($_POST['email'])) {
 
     $email_to = "YOUR EMAIL ID GOES HERE";
  
-    $email_subject = "Website Contact";
+    $email_subject = "Web Hosting Contact";
 
  
     function died($error) {

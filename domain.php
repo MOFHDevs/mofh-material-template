@@ -42,7 +42,7 @@ include('geturl.php');
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-            <a href="#" id="logo-container" class="brand-logo"><? echo "$yourdomain" ;?></a>
+            <a href="/" id="logo-container" class="brand-logo"><? echo "$yourdomain" ;?></a>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="right hide-on-med-and-down">
                     <li itemprop="name"><a href="#intro" itemprop="url">Service</a></li>
                     <li itemprop="name"><a href="#work" itemprop="url">Work</a></li>
