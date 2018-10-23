@@ -3,11 +3,10 @@
 # MOFH Material Template
 A Template for MyOwnFreeHost based on Material Design.
 
-<p>
-<img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built With Love"><!--
---><img src="https://img.shields.io/badge/by-MOFHDevWorld-blue.svg?longcache=true&style=for-the-badge&colorA=2abbea" alt="by MOFHDevWorld> 
 
-</p> 
+<img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built With Love"><!--
+--> <img src="https://img.shields.io/badge/by-MOFHDevWorld-blue.svg?longcache=true&style=for-the-badge&colorA=2abbea" alt="by MOFHDevWorld> 
+
 
 ## How to install?
 Download and upload all the files on your web hosting and modify the files as you want but don't remove credits.  
