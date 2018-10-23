@@ -18,5 +18,3 @@ Copyright 2018 MOFHDevWorld, all rights reserved.
   <p>
 [![License](https://img.shields.io/github/license/MOFHDevWorld/mofh-material-template.svg?style=for-the-badge)](https://github.com/MOFHDevWorld/mofh-material-template/blob/master/LICENSE.md)
   </p>
-
-
