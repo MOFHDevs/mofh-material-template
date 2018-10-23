@@ -4,7 +4,7 @@
 A Template for MyOwnFreeHost based on Material Design.
 
 <p>
-<img src="https://forthebadge.com/images/badges/built-with-love.svg alt="Built With Love"> <img src="https://img.shields.io/badge/by-MOFHDevWorld-blue.svg?longcache=true&style=for-the-badge&colorA=2abbea" alt="by MOFHDevWorld>
+<img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built With Love"> <img src="https://img.shields.io/badge/by-MOFHDevWorld-blue.svg?longcache=true&style=for-the-badge&colorA=2abbea" alt="by MOFHDevWorld>
 </p> 
 
 ## How to install?
