@@ -83,21 +83,21 @@ include('geturl.php');
         <div class="row">
             <div  class="col s12">
                 <h2 class="center header text_h2"> Welcome to our <span class="span_h2">free</span> web hosting!</h2>
-				<h4 class="center header text_h4">nec suscipit lorem <span class="span_h2"> laoreet quis.</span> </h4>
+				<p class="center header text_h5">We are specialists in free hosting services using clustered technology powered by one of the largest hosting organizations on the internet. Sign up here for fast free PHP & MySQL hosting supporting free domains. <br /> <br /> A powerful control panel, VistaPanel, is provided to help you manage your website, packed with hundreds of great features including website building tools, Email, FTP, addon domains and much more. </p>
             </div>
 
             <div  class="col s12 m4 l4">
                 <div class="center promo promo-example">
                     <i class="mdi-image-flash-on"></i>
-                    <h5 class="promo-caption">Speeds up development</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                    <h5 class="promo-caption">Fastest Free Hosting</h5>
+                    <p class="light center">Our servers will deliver the content of your website to your computer at lightning speed! No more waiting for ages for websites to load!</p>
                 </div>
             </div>
             <div class="col s12 m4 l4">
                 <div class="center promo promo-example">
                     <i class="mdi-social-group"></i>
-                    <h5 class="promo-caption">User Experience Focused</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <h5 class="promo-caption">Support Available 24/7</h5>
+                    <p class="light center">Hate of waiting hours and days to get a solution to your problem? We do too! That is why we offer support around the clock, ready to assist you with any issue you might have.</p>
                 </div>
             </div>
             <div class="col s12 m4 l4">
