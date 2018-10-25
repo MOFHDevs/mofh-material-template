@@ -102,9 +102,9 @@ include('geturl.php');
             </div>
             <div class="col s12 m4 l4">
                 <div class="center promo promo-example">
-                    <i class="mdi-hardware-desktop-windows"></i>
-                    <h5 class="promo-caption">Fully responsive</h5>
-                    <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                    <i class="mdi-hardware-phonelink"></i>
+                    <h5 class="promo-caption">Modern Panel Theme</h5>
+                    <p class="light center">Our panel uses the latest version of PaperLantern, a modern and responsive theme to suit your needs.</p>
                 </div>
             </div>
         </div>
@@ -226,7 +226,7 @@ include('geturl.php');
                         <img class="activator" src="img/avatar1.png">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Flash <br/>
+                        <span class="card-title activator grey-text text-darken-4">PCTipsGR <br/>
                             <small><em><a class="red-text text-darken-1" href="#">CEO</a></em></small></span>
                         <p>
                             <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
@@ -251,20 +251,20 @@ include('geturl.php');
                         <img class="activator" src="img/avatar2.png">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Cat Woman<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">Designer</a></em></small>
+                        <span class="card-title activator grey-text text-darken-4">MAHOfficial<br/>
+                            <small><em><a class="red-text text-darken-1" href="#">COO</a></em></small>
                         </span>
                         <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
+                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/MuhammadAqibHussainOfficial">
                                 <i class="fa fa-facebook-square"></i>
                             </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
+                            <a class="blue-text text-lighten-2" href="https://twitter.com/Aqib2001">
                                 <i class="fa fa-twitter-square"></i>
                             </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
+                            <a class="blue-text text-lighten-2" href="https://plus.google.com/+MuhammadAqibHussain2016">
                                 <i class="fa fa-google-plus-square"></i>
                             </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
+                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/muhammadaqibhussainofficial/">
                                 <i class="fa fa-linkedin-square"></i>
                             </a>
                         </p>
