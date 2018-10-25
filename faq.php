@@ -41,21 +41,21 @@ include('geturl.php');
  <div class="navbar-fixed">
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
-           <div class="nav-wrapper">
-            <a href="#" id="logo-container" class="brand-logo"><? echo "$yourdomain" ;?></a>
+            <div class="nav-wrapper">
+            <a href="/" id="logo-container" class="brand-logo"><? echo "$yourdomain" ;?></a>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="right hide-on-med-and-down">
-                    <li itemprop="name"><a href="#intro" itemprop="url">Service</a></li>
-                    <li itemprop="name"><a href="#work" itemprop="url">Work</a></li>
-                    <li itemprop="name"><a href="#team" itemprop="url">Team</a></li>
+                    <li itemprop="name"><a href="free-hosting.php" itemprop="url">Free Hosting</a></li>
+                    <li itemprop="name"><a href="premium-hosting.php" itemprop="url">Premium Hosting</a></li>
+                    <li itemprop="name"><a href="domain.php" itemprop="url">Domains</a></li>
+                    <li itemprop="name"><a href="faq.php" itemprop="url">FAQ</a></li>
                     <li itemprop="name"><a href="#contact" itemprop="url">Contact</a></li>
-                    <li itemprop="name"><a href="https://github.com/joashp/material-design-template" target="_blank" itemprop="url">Download</a></li>
                 </ul>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" id="nav-mobile" class="side-nav">
-                    <li itemprop="name"><a href="#intro" itemprop="url">Service</a></li>
-                    <li itemprop="name"><a href="#work" itemprop="url">Work</a></li>
-                    <li itemprop="name"><a href="#team" itemprop="url">Team</a></li>
+                    <li itemprop="name"><a href="free-hosting.php" itemprop="url">Free Hosting</a></li>
+                    <li itemprop="name"><a href="premium-hosting.php" itemprop="url">Premium Hosting</a></li>
+                    <li itemprop="name"><a href="domain.php" itemprop="url">Domains</a></li>
+                    <li itemprop="name"><a href="faq.php" itemprop="url">FAQ</a></li>
                     <li itemprop="name"><a href="#contact" itemprop="url">Contact</a></li>
-                    <li itemprop="name"><a href="https://github.com/joashp/material-design-template" target="_blank" itemprop="url">Download</a></li>
                 </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>

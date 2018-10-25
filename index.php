@@ -47,15 +47,15 @@ include('geturl.php');
                     <li itemprop="name"><a href="free-hosting.php" itemprop="url">Free Hosting</a></li>
                     <li itemprop="name"><a href="premium-hosting.php" itemprop="url">Premium Hosting</a></li>
                     <li itemprop="name"><a href="domain.php" itemprop="url">Domains</a></li>
+                    <li itemprop="name"><a href="faq.php" itemprop="url">FAQ</a></li>
                     <li itemprop="name"><a href="#contact" itemprop="url">Contact</a></li>
-                    <li itemprop="name"><a href="https://github.com/joashp/material-design-template" target="_blank" itemprop="url">Download</a></li>
                 </ul>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" id="nav-mobile" class="side-nav">
                     <li itemprop="name"><a href="free-hosting.php" itemprop="url">Free Hosting</a></li>
                     <li itemprop="name"><a href="premium-hosting.php" itemprop="url">Premium Hosting</a></li>
                     <li itemprop="name"><a href="domain.php" itemprop="url">Domains</a></li>
+                    <li itemprop="name"><a href="faq.php" itemprop="url">FAQ</a></li>
                     <li itemprop="name"><a href="#contact" itemprop="url">Contact</a></li>
-                    <li itemprop="name"><a href="https://github.com/joashp/material-design-template" target="_blank" itemprop="url">Download</a></li>
                 </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>

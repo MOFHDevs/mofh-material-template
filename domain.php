@@ -44,18 +44,18 @@ include('geturl.php');
             <div class="nav-wrapper">
             <a href="/" id="logo-container" class="brand-logo"><? echo "$yourdomain" ;?></a>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="right hide-on-med-and-down">
-                    <li itemprop="name"><a href="#intro" itemprop="url">Service</a></li>
-                    <li itemprop="name"><a href="#work" itemprop="url">Work</a></li>
-                    <li itemprop="name"><a href="#team" itemprop="url">Team</a></li>
+                    <li itemprop="name"><a href="free-hosting.php" itemprop="url">Free Hosting</a></li>
+                    <li itemprop="name"><a href="premium-hosting.php" itemprop="url">Premium Hosting</a></li>
+                    <li itemprop="name"><a href="domain.php" itemprop="url">Domains</a></li>
+                    <li itemprop="name"><a href="faq.php" itemprop="url">FAQ</a></li>
                     <li itemprop="name"><a href="#contact" itemprop="url">Contact</a></li>
-                    <li itemprop="name"><a href="https://github.com/joashp/material-design-template" target="_blank" itemprop="url">Download</a></li>
                 </ul>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" id="nav-mobile" class="side-nav">
-                    <li itemprop="name"><a href="#intro" itemprop="url">Service</a></li>
-                    <li itemprop="name"><a href="#work" itemprop="url">Work</a></li>
-                    <li itemprop="name"><a href="#team" itemprop="url">Team</a></li>
+                    <li itemprop="name"><a href="free-hosting.php" itemprop="url">Free Hosting</a></li>
+                    <li itemprop="name"><a href="premium-hosting.php" itemprop="url">Premium Hosting</a></li>
+                    <li itemprop="name"><a href="domain.php" itemprop="url">Domains</a></li>
+                    <li itemprop="name"><a href="faq.php" itemprop="url">FAQ</a></li>
                     <li itemprop="name"><a href="#contact" itemprop="url">Contact</a></li>
-                    <li itemprop="name"><a href="https://github.com/joashp/material-design-template" target="_blank" itemprop="url">Download</a></li>
                 </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>
@@ -172,7 +172,7 @@ include('geturl.php');
                     <div class="card-content">
                         <h5 class="promo-caption center">Easy Management</h5>
                         <p class="light center">You can easily manage your domain name directly from client area. Our Partner user interface is simple and powerful for managing domain name. Change DNS records easily across multiple domains.</p>
-                    <center><a class="waves-effect waves-light blue btn modal-trigger" href="#modal1" style="color:white;">Read More!</a></center>
+                    <!--<center><a class="waves-effect waves-light blue btn modal-trigger" href="#modal1" style="color:white;">Read More!</a></center>-->
 					<div id="modal1" class="modal">
     <div class="modal-content">
       <h4 class="promo-caption center">Easy Management</h4>
@@ -193,7 +193,7 @@ include('geturl.php');
                     <div class="card-content">
                         <h5 class="promo-caption center">Auto Renewal</h5>
                         <p class="light center">The domain name will be renewed automatically after getting expired if you turned auto-renewal for your domain name on. This will protect your domain name for getting suspended and losing traffic.</p>
-                    <center><a class="waves-effect waves-light blue btn modal-trigger" href="#modal2" style="color:white;">Read More!</a></center>
+                    <!--<center><a class="waves-effect waves-light blue btn modal-trigger" href="#modal2" style="color:white;">Read More!</a></center>-->
 					<div id="modal2" class="modal">
     <div class="modal-content">
       <h4 class="promo-caption center">Auto Renewal</h4>
@@ -214,7 +214,7 @@ include('geturl.php');
                     <div class="card-content">
                         <h5 class="promo-caption center">Free Whois Protection</h5>
                         <p class="light center">Our Partner is providing free whois protection for lifetime for your domain name. Our Partner is protecting your identity by using whois protection. You can customize your whois info anytime from your domain name portal.</p>
-                    <center><a class="waves-effect waves-light blue btn modal-trigger" href="#modal3" style="color:white;">Read More!</a></center>
+                    <!--<center><a class="waves-effect waves-light blue btn modal-trigger" href="#modal3" style="color:white;">Read More!</a></center>-->
 					<div id="modal3" class="modal">
     <div class="modal-content">
       <h4 class="promo-caption center">Free Whois Protection</h4>
@@ -235,7 +235,7 @@ include('geturl.php');
                     <div class="card-content">
                         <h5 class="promo-caption center">Free DNS Management</h5>
                         <p class="light center">Register your domain name to get Free DNS Management with your domain name. External DNS Hosting can help you speed up your website and improve availability with increased redundancy. DNS Management is provided for free with every registration.</p>
-                    <center><a class="waves-effect waves-light blue btn modal-trigger" href="#modal4" style="color:white;">Read More!</a></center>
+                    <!--<center><a class="waves-effect waves-light blue btn modal-trigger" href="#modal4" style="color:white;">Read More!</a></center>-->
 					<div id="modal4" class="modal">
     <div class="modal-content">
       <h4 class="promo-caption center">Free DNS Management</h4>
@@ -256,7 +256,7 @@ include('geturl.php');
                     <div class="card-content">
                         <h5 class="promo-caption center">Free Domain Forwarding</h5>
                         <p class="light center">There is a free domain forwarding feature for the domain name that you purchased. You can easily forward your domain to any other domain. It provide easy user interface to help you manager redirection of your domain.</p>
-                    <center><a class="waves-effect waves-light blue btn modal-trigger" href="#modal5" style="color:white;">Read More!</a></center>
+                    <!--<center><a class="waves-effect waves-light blue btn modal-trigger" href="#modal5" style="color:white;">Read More!</a></center>-->
 					<div id="modal5" class="modal">
     <div class="modal-content">
       <h4 class="promo-caption center">Free Domain Forwarding</h4>
@@ -277,7 +277,7 @@ include('geturl.php');
                     <div class="card-content">
                         <h5 class="promo-caption center">24/7 Hour Support</h5>
                         <p class="light center">Our partner in-house, expert team is always on hand to help answer your questions, get you started, and grow your presence online. You can open support ticket for you domain name any time to get your problem solved by expert support team.</p>
-                    <center><a class="waves-effect waves-light blue btn modal-trigger" href="#modal6" style="color:white;">Read More!</a></center>
+                    <!--<center><a class="waves-effect waves-light blue btn modal-trigger" href="#modal6" style="color:white;">Read More!</a></center>-->
 					<div id="modal6" class="modal">
     <div class="modal-content">
       <h4 class="promo-caption center">24/7 Hour Support</h4>
