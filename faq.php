@@ -84,19 +84,19 @@ include('geturl.php');
     </li>
     <li>
       <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Do I get a free subdomain?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Yes, you can get a free subdomain like yourname.reseller.com for free!.</span></div>
+      <div class="collapsible-body" id="dm-faq-cb"><span>Yes, you can get a free subdomain like yourname.<? echo "$yourdomain" ;?> for free!.</span></div>
     </li>
 	<li>
       <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>How long does it takes to setup my account?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Forget about waiting lists, ResellerName accounts are automatically created in minutes.</span></div>
+      <div class="collapsible-body" id="dm-faq-cb"><span>Forget about waiting lists, <? echo "$yourdomain" ;?> accounts are automatically created in minutes.</span></div>
     </li>
 	<li>
       <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Can I host my own domains?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Yes, you can easily host your own domain name registered elsewhere on ResellerName.</span></div>
+      <div class="collapsible-body" id="dm-faq-cb"><span>Yes, you can easily host your own domain name registered elsewhere on <? echo "$yourdomain" ;?>.</span></div>
     </li>
 	<li>
       <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>For how long is the free hosting valid?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>ResellerName is free forever! There is no time limit for free hosting. You can sign up whenever you want and use it for as long as you want! Some people have been hosting their websites with us for years, without ever paying anything!.</span></div>
+      <div class="collapsible-body" id="dm-faq-cb"><span><? echo "$yourdomain" ;?> is free forever! There is no time limit for free hosting. You can sign up whenever you want and use it for as long as you want! Some people have been hosting their websites with us for years, without ever paying anything!.</span></div>
     </li>
 	<li>
       <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Will you put ads on my site?</span></div>
@@ -104,11 +104,11 @@ include('geturl.php');
     </li>
 	<li>
       <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Why do you provide free hosting?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>ResellerName provides free hosting, because we believe everyone should have the opportunity to build a presence online. Regardless of who you are, where you are and what your budget is, we believe you should be able to have a website.</span></div>
+      <div class="collapsible-body" id="dm-faq-cb"><span><? echo "$yourdomain" ;?> provides free hosting, because we believe everyone should have the opportunity to build a presence online. Regardless of who you are, where you are and what your budget is, we believe you should be able to have a website.</span></div>
     </li>
 	<li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Is ResellerName a demo, trial or sample for premium hosting?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Absolutely not! ResellerName is fully featured, completely free website hosting. We provide offers for alternative, paid services for people looking for more, but ResellerName is not sample for these third party offers.</span></div>
+      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Is <? echo "$yourdomain" ;?> a demo, trial or sample for premium hosting?</span></div>
+      <div class="collapsible-body" id="dm-faq-cb"><span>Absolutely not! <? echo "$yourdomain" ;?> is fully featured, completely free website hosting. We provide offers for alternative, paid services for people looking for more, but <? echo "$yourdomain" ;?> is not sample for these third party offers.</span></div>
     </li>
     
   </ul>
