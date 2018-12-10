@@ -1,5 +1,5 @@
 <?
-include('geturl.php');    
+include('geturl.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -14,8 +14,8 @@ include('geturl.php');
 	<meta name="revisit-after" content="5 days">
 	<meta name="theme-color" content="#2196F3">
 	<meta name="twitter:card" content="summary_large_image">
-    <meta property="og:url" content="https://"> 
-	<meta property="og:type" content="website"> 
+    <meta property="og:url" content="https://">
+	<meta property="og:type" content="website">
 	<meta property="og:title" content="Free Professional Web Hosting">
 	<meta property="og:image" content="https://">
 	<meta property="og:locale" content="en_US">
@@ -31,10 +31,10 @@ include('geturl.php');
 <!-- Pre Loader -->
 <div id="loader-wrapper">
     <div id="loader"></div>
- 
+
     <div class="loader-section section-left"></div>
     <div class="loader-section section-right"></div>
- 
+
 </div>
 
 <!--Navigation-->
@@ -72,7 +72,7 @@ include('geturl.php');
                 <b>Professional</b>
                 <b>Reliable</b>
             </span>
-			            <span>Free Hosting</span> 
+			            <span>Free Hosting</span>
         </h1>
     </div>
 </div>
@@ -86,126 +86,51 @@ include('geturl.php');
 				<p class="center header text_h5">We are specialists in free hosting services using clustered technology powered by one of the largest hosting organizations on the internet. Sign up here for fast free PHP & MySQL hosting supporting free domains. <br /> <br /> A powerful control panel, VistaPanel, is provided to help you manage your website, packed with hundreds of great features including website building tools, Email, FTP, addon domains and much more. </p>
             </div>
 
-            <div  class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-image-flash-on"></i>
-                    <h5 class="promo-caption">Fastest Free Hosting</h5>
-                    <p class="light center">Our servers will deliver the content of your website to your computer at lightning speed! No more waiting for ages for websites to load!</p>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-social-group"></i>
-                    <h5 class="promo-caption">Support Available 24/7</h5>
-                    <p class="light center">Hate of waiting hours and days to get a solution to your problem? We do too! That is why we offer support around the clock, ready to assist you with any issue you might have.</p>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="center promo promo-example">
-                    <i class="mdi-hardware-phonelink"></i>
-                    <h5 class="promo-caption">Modern Panel Theme</h5>
-                    <p class="light center">Our panel uses the latest version of PaperLantern, a modern and responsive theme to suit your needs.</p>
-                </div>
-            </div>
         </div>
     </div>
 </div>
 
-<!--Work-->
-<div class="section scrollspy" id="work">
+<div class="section scrollspy" id="features">
     <div class="container">
-        <h2 class="header text_b">Work </h2>
+        <h2 class="header text_b">Features</h2>
         <div class="row">
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project1.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project2.jpeg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project3.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project4.jpg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project5.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/project6.jpeg">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a href="#">Project link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                </div>
-            </div>
+          <div  class="col s12 m4 l4">
+              <div class="center promo promo-example">
+                  <i class="mdi-image-flash-auto"></i>
+                  <h5 class="promo-caption">Instant Activation</h5>
+                  <p class="light center">We don't want you to wait for hours just to get your free hosting account, we want you to be happy using our free service as soon as possible! So never wait long again to get your free hosting account!</p>
+              </div>
+          </div>
+          <div  class="col s12 m4 l4">
+              <div class="center promo promo-example">
+                  <i class="mdi-image-flash-on"></i>
+                  <h5 class="promo-caption">Fastest Free Hosting</h5>
+                  <p class="light center">Our servers will deliver the content of your website to your computer at lightning speed! No more waiting for ages for websites to load!</p>
+              </div>
+          </div>
+          <div class="col s12 m4 l4">
+              <div class="center promo promo-example">
+                  <i class="mdi-social-group"></i>
+                  <h5 class="promo-caption">Support Available 24/7</h5>
+                  <p class="light center">Hate of waiting hours and days to get a solution to your problem? We do too! That is why we offer support around the clock, ready to assist you with any issue you might have.</p>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div  class="col s12 m4 l4">
+              <div class="center promo promo-example">
+                  <i class="mdi-hardware-security"></i>
+                  <h5 class="promo-caption">High Security</h5>
+                  <p class="light center">We take security very seriously. We have taken measures such as Firewall Protection to protect your site against malware and anything harmful that could damage your site.</p>
+              </div>
+          </div>
+          <div class="col s12 m4 l4">
+              <div class="center promo promo-example">
+                  <i class="mdi-hardware-phonelink"></i>
+                  <h5 class="promo-caption">Modern Panel Theme</h5>
+                  <p class="light center">Our panel uses the latest version of PaperLantern, a modern and responsive theme to suit your needs.</p>
+              </div>
+          </div>
         </div>
     </div>
 </div>
@@ -278,44 +203,19 @@ include('geturl.php');
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">
-                            Capt. America <br/>
+                            Arcenas090 <br/>
                             <small><em><a class="red-text text-darken-1" href="#">CMO</a></em></small></span>
                         <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
+                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/Arcenas090">
                                 <i class="fa fa-facebook-square"></i>
                             </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
+                            <a class="blue-text text-lighten-2" href="https://twitter.com/Arcenas090">
                                 <i class="fa fa-twitter-square"></i>
                             </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
+                            <a class="blue-text text-lighten-2" href="https://plus.google.com/+Arcenas090">
                                 <i class="fa fa-google-plus-square"></i>
                             </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar4.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Robin<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">Developer</a></em></small></span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
+                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/Arcenas090">
                                 <i class="fa fa-linkedin-square"></i>
                             </a>
                         </p>
@@ -328,7 +228,7 @@ include('geturl.php');
 
 <!--Footer-->
 <footer id="contact" class="page-footer default_color scrollspy">
-    <div class="container">  
+    <div class="container">
         <div class="row">
             <div class="col l6 s12">
                 <form class="col s12" action="contact.php" method="post">
