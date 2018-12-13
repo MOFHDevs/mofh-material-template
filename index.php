@@ -300,7 +300,7 @@ include('geturl.php');
     </div>
     <div class="footer-copyright default_color">
         <div class="container">
-            Made by <a class="white-text" href="http://joashpereira.com">Joash Pereira</a>. Thanks to <a class="white-text" href="http://materializecss.com/">materializecss</a>
+            Made by <a class="white-text" href="https://github.com/MOFHDevWorld">MOFHDevWorld</a>
         </div>
     </div>
 </footer>
