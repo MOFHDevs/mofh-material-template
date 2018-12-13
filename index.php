@@ -131,6 +131,13 @@ include('geturl.php');
                   <p class="light center">Our panel uses the latest version of PaperLantern, a modern and responsive theme to suit your needs.</p>
               </div>
           </div>
+          <div class="col s12 m4 l4">
+              <div class="center promo promo-example">
+                  <i class="mdi-action-schedule"></i>
+                  <h5 class="promo-caption">99.99% Uptime Guaranteed</h5>
+                  <p class="light center">Uptime is our main priority. We use generators as backup power for our servers so we can gurantee 99.9% uptime.</p>
+              </div>
+          </div>
         </div>
     </div>
 </div>
@@ -233,6 +240,7 @@ include('geturl.php');
             <div class="col l6 s12">
                 <form class="col s12" action="contact.php" method="post">
                     <div class="row">
+                      <h5 class="white-text"> Send us a message </h5>
                         <div class="input-field col s6">
                             <i class="mdi-action-account-circle prefix white-text"></i>
                             <input id="icon_prefix" name="name" type="text" class="validate white-text">
@@ -241,12 +249,12 @@ include('geturl.php');
                         <div class="input-field col s6">
                             <i class="mdi-communication-email prefix white-text"></i>
                             <input id="icon_email" name="email" type="email" class="validate white-text">
-                            <label for="icon_email" class="white-text">Email-id</label>
+                            <label for="icon_email" class="white-text">Email</label>
                         </div>
                         <div class="input-field col s12">
                             <i class="mdi-editor-mode-edit prefix white-text"></i>
                             <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text"></textarea>
-                            <label for="icon_prefix2" class="white-text">Message</label>
+                            <label for="icon_prefix2" class="white-text">Your Message</label>
                         </div>
                         <div class="col offset-s7 s5">
                             <button class="btn waves-effect waves-light red darken-1" type="submit">Submit
@@ -257,10 +265,10 @@ include('geturl.php');
                 </form>
             </div>
             <div class="col l3 s12">
-                <h5 class="white-text">joashpereira.com</h5>
+                <h5 class="white-text"><? echo "$yourdomain" ;?></h5>
                 <ul>
-                    <li><a class="white-text" href="http://www.joashpereira.com/">Home</a></li>
-                    <li><a class="white-text" href="http://www.joashpereira.com/blog">Blog</a></li>
+                    <li><a class="white-text" href="<? echo "$yourdomain" ;?>">Home</a></li>
+                    <li><a class="white-text" href="free-hosting.php">Free Hosting</a></li>
                 </ul>
             </div>
             <div class="col l3 s12">
