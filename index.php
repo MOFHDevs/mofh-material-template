@@ -1,12 +1,12 @@
-<?
-include('geturl.php');
+<?php
+include 'config.php';
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <title><? echo "$yourdomain" ;?>- Free Professional Web Hosting</title>
+    <title><?=$mofh['title'];?>- Free Professional Web Hosting</title>
 	<meta name="keywords" content="free, web, hosting, web hosting, domain names, web site, search engine optimization, hosting, servers, cpanel hosting, cpanel, free website, reliable hosting, professional hosting">
 	<meta name="description" content="Get Free Professional Web Hosting for your Website">
 	<meta name="author" content="MOFHDevWorld">
@@ -14,12 +14,12 @@ include('geturl.php');
 	<meta name="revisit-after" content="5 days">
 	<meta name="theme-color" content="#2196F3">
 	<meta name="twitter:card" content="summary_large_image">
-    <meta property="og:url" content="https://">
+    <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>>
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Free Professional Web Hosting">
-	<meta property="og:image" content="https://">
+	<meta property="og:image" content="<?=$mofh['logo'];?>">
 	<meta property="og:locale" content="en_US">
-	<link rel="canonical" href="https://">
+	<link rel="canonical" href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>">
 	<link rel='shortcut icon' href="favicon.ico">
 
     <!-- CSS  -->
