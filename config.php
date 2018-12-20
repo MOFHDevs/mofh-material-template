@@ -3,11 +3,11 @@ $mofh = array(
      
 'title' => 'MOFH-Material-Template', // Site title
     
-'logo' => '/images/logo.png', // Logo URL
+'logo' => '/img/logo.png', // Logo URL
      
 'protocol' => 'https://', // it is https or http
    
- 'favicon' => '/favicon.ico', // your website favicon url
+ 'favicon' => '/img/favicon.ico', // your website favicon url
 
  'mail' => 'some@mofh.ooo', // email here
      
