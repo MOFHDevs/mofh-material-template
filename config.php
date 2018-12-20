@@ -7,6 +7,8 @@ $mofh = array(
      
 'protocol' => 'https://', // it is https or http
 
+ 'mail' => 'some@mofh.ooo', // email here
+
 'domain' => strtolower(preg_replace('/^www\./' , '' , $_SERVER['HTTP_HOST'])), // Automatic Domain Recognition
 
 );
