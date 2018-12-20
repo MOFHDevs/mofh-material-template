@@ -42,7 +42,7 @@ include 'config.php';
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-            <a href="/" id="logo-container" class="brand-logo"><? echo "$yourdomain" ;?></a>
+            <a href="/" id="logo-container" class="brand-logo"><?=$mofh['title'];?></a>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="right hide-on-med-and-down">
                     <li itemprop="name"><a href="free-hosting.php" itemprop="url">Free Hosting</a></li>
                     <li itemprop="name"><a href="premium-hosting.php" itemprop="url">Premium Hosting</a></li>
@@ -265,7 +265,7 @@ include 'config.php';
                 </form>
             </div>
             <div class="col l3 s12">
-                <h5 class="white-text"><? echo "$yourdomain" ;?></h5>
+                <h5 class="white-text"><?=$mofh['title'];?></h5>
                 <ul>
                     <li><a class="white-text" href="<? echo "$yourdomain" ;?>">Home</a></li>
                     <li><a class="white-text" href="free-hosting.php">Free Hosting</a></li>
@@ -300,7 +300,7 @@ include 'config.php';
     </div>
     <div class="footer-copyright default_color">
         <div class="container">
-            Made by <a class="white-text" href="https://github.com/MOFHDevWorld">MOFHDevWorld</a>
+            Made with Love By <a class="white-text" href="https://github.com/MOFHDevWorld">MOFHDevWorld</a>
         </div>
     </div>
 </footer>
