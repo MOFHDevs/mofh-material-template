@@ -275,22 +275,22 @@ include 'config.php';
                 <h5 class="white-text">Social</h5>
                 <ul>
                     <li>
-                        <a class="white-text" href="https://www.behance.net/joashp">
-                            <i class="small fa fa-behance-square white-text"></i> Behance
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" href="https://www.facebook.com/joash.c.pereira">
+                        <a class="white-text" href="<?=$mofh['facebook'];?>">
                             <i class="small fa fa-facebook-square white-text"></i> Facebook
                         </a>
                     </li>
                     <li>
-                        <a class="white-text" href="https://github.com/joashp">
-                            <i class="small fa fa-github-square white-text"></i> Github
+                        <a class="white-text" href="<?=$mofh['twitter'];?>">
+                            <i class="small fa fa-twitter-square white-text"></i> Twitter
                         </a>
                     </li>
                     <li>
-                        <a class="white-text" href="https://www.linkedin.com/in/joashp">
+                        <a class="white-text" href="<?=$mofh['google-plus'];?>">
+                            <i class="small fa fa-google-plus-square white-text"></i> Google Plus
+                        </a>
+                    </li>
+                    <li>
+                        <a class="white-text" href="<?=$mofh['linkedin'];?>">
                             <i class="small fa fa-linkedin-square white-text"></i> Linkedin
                         </a>
                     </li>
