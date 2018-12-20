@@ -1,12 +1,12 @@
-<?
-include('geturl.php');    
+<?php
+include 'config.php';
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <title>FAQ's - <? echo "$yourdomain" ;?></title>
+    <title>FAQ's - <?=$mofh['title'];?></title>
 	<meta name="keywords" content="free, web, hosting, web hosting, faq, web site, search engine optimization, hosting, servers, faqs, frequently, asked, questions, frequently asked questions, availability, created, page">
 	<meta name="description" content="Get Free Professional Web Hosting for your Website">
 	<meta name="author" content="MOFHDevWorld">
@@ -14,12 +14,12 @@ include('geturl.php');
 	<meta name="revisit-after" content="5 days">
 	<meta name="theme-color" content="#2196F3">
 	<meta name="twitter:card" content="summary_large_image">
-    <meta property="og:url" content="https://"> 
+    <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/faq.php"> 
 	<meta property="og:type" content="website"> 
 	<meta property="og:title" content="FAQ's - Free Professional Web Hosting">
-	<meta property="og:image" content="https://">
+	<meta property="og:image" content="<?=$mofh['logo'];?>">
 	<meta property="og:locale" content="en_US">
-	<link rel="canonical" href="https://">
+	<link rel="canonical" href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/faq.php">
 	<link rel='shortcut icon' href="favicon.ico">
 
     <!-- CSS  -->
@@ -42,7 +42,7 @@ include('geturl.php');
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-            <a href="/" id="logo-container" class="brand-logo"><? echo "$yourdomain" ;?></a>
+            <a href="/" id="logo-container" class="brand-logo"><?=$mofh['domain'];?></a>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="right hide-on-med-and-down">
                     <li itemprop="name"><a href="free-hosting.php" itemprop="url">Free Hosting</a></li>
                     <li itemprop="name"><a href="premium-hosting.php" itemprop="url">Premium Hosting</a></li>
@@ -84,19 +84,19 @@ include('geturl.php');
     </li>
     <li>
       <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Do I get a free subdomain?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Yes, you can get a free subdomain like yourname.<? echo "$yourdomain" ;?> for free!.</span></div>
+      <div class="collapsible-body" id="dm-faq-cb"><span>Yes, you can get a free subdomain like yourname.<?=$mofh['domain'];?> for free!.</span></div>
     </li>
 	<li>
       <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>How long does it takes to setup my account?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Forget about waiting lists, <? echo "$yourdomain" ;?> accounts are automatically created in minutes.</span></div>
+      <div class="collapsible-body" id="dm-faq-cb"><span>Forget about waiting lists, <?=$mofh['title'];?> accounts are automatically created in minutes.</span></div>
     </li>
 	<li>
       <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Can I host my own domains?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Yes, you can easily host your own domain name registered elsewhere on <? echo "$yourdomain" ;?>.</span></div>
+      <div class="collapsible-body" id="dm-faq-cb"><span>Yes, you can easily host your own domain name registered elsewhere on <?=$mofh['title'];?>.</span></div>
     </li>
 	<li>
       <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>For how long is the free hosting valid?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span><? echo "$yourdomain" ;?> is free forever! There is no time limit for free hosting. You can sign up whenever you want and use it for as long as you want! Some people have been hosting their websites with us for years, without ever paying anything!.</span></div>
+      <div class="collapsible-body" id="dm-faq-cb"><span><?=$mofh['title'];?> is free forever! There is no time limit for free hosting. You can sign up whenever you want and use it for as long as you want! Some people have been hosting their websites with us for years, without ever paying anything!.</span></div>
     </li>
 	<li>
       <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Will you put ads on my site?</span></div>
@@ -104,11 +104,11 @@ include('geturl.php');
     </li>
 	<li>
       <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Why do you provide free hosting?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span><? echo "$yourdomain" ;?> provides free hosting, because we believe everyone should have the opportunity to build a presence online. Regardless of who you are, where you are and what your budget is, we believe you should be able to have a website.</span></div>
+      <div class="collapsible-body" id="dm-faq-cb"><span><?=$mofh['title'];?> provides free hosting, because we believe everyone should have the opportunity to build a presence online. Regardless of who you are, where you are and what your budget is, we believe you should be able to have a website.</span></div>
     </li>
 	<li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Is <? echo "$yourdomain" ;?> a demo, trial or sample for premium hosting?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Absolutely not! <? echo "$yourdomain" ;?> is fully featured, completely free website hosting. We provide offers for alternative, paid services for people looking for more, but <? echo "$yourdomain" ;?> is not sample for these third party offers.</span></div>
+      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Is <?=$mofh['title'];?> a demo, trial or sample for premium hosting?</span></div>
+      <div class="collapsible-body" id="dm-faq-cb"><span>Absolutely not! <?=$mofh['title'];?> is fully featured, completely free website hosting. We provide offers for alternative, paid services for people looking for more, but <?=$mofh['title'];?> is not sample for these third party offers.</span></div>
     </li>
     
   </ul>
@@ -116,11 +116,12 @@ include('geturl.php');
 </div>
 <!--Footer-->
 <footer id="contact" class="page-footer default_color scrollspy">
-    <div class="container">  
+    <div class="container">
         <div class="row">
             <div class="col l6 s12">
                 <form class="col s12" action="contact.php" method="post">
                     <div class="row">
+                      <h5 class="white-text"> Send us a message </h5>
                         <div class="input-field col s6">
                             <i class="mdi-action-account-circle prefix white-text"></i>
                             <input id="icon_prefix" name="name" type="text" class="validate white-text">
@@ -129,12 +130,12 @@ include('geturl.php');
                         <div class="input-field col s6">
                             <i class="mdi-communication-email prefix white-text"></i>
                             <input id="icon_email" name="email" type="email" class="validate white-text">
-                            <label for="icon_email" class="white-text">Email-id</label>
+                            <label for="icon_email" class="white-text">Email</label>
                         </div>
                         <div class="input-field col s12">
                             <i class="mdi-editor-mode-edit prefix white-text"></i>
                             <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text"></textarea>
-                            <label for="icon_prefix2" class="white-text">Message</label>
+                            <label for="icon_prefix2" class="white-text">Your Message</label>
                         </div>
                         <div class="col offset-s7 s5">
                             <button class="btn waves-effect waves-light red darken-1" type="submit">Submit
@@ -145,10 +146,10 @@ include('geturl.php');
                 </form>
             </div>
             <div class="col l3 s12">
-                <h5 class="white-text">joashpereira.com</h5>
+                <h5 class="white-text"><?=$mofh['title'];?></h5>
                 <ul>
-                    <li><a class="white-text" href="http://www.joashpereira.com/">Home</a></li>
-                    <li><a class="white-text" href="http://www.joashpereira.com/blog">Blog</a></li>
+                    <li><a class="white-text" href="<?=$mofh['domain'];?>">Home</a></li>
+                    <li><a class="white-text" href="free-hosting.php">Free Hosting</a></li>
                 </ul>
             </div>
             <div class="col l3 s12">
@@ -180,7 +181,7 @@ include('geturl.php');
     </div>
     <div class="footer-copyright default_color">
         <div class="container">
-            Made by <a class="white-text" href="http://joashpereira.com">Joash Pereira</a>. Thanks to <a class="white-text" href="http://materializecss.com/">materializecss</a>
+            Made with <i class="mdi-action-favorite"> by <a class="white-text" href="https://github.com/MOFHDevWorld">MOFHDevWorld</a>
         </div>
     </div>
 </footer>
