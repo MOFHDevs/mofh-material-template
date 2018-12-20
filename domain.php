@@ -42,7 +42,7 @@ include 'config.php';
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-            <a href="/" id="logo-container" class="brand-logo"><?=$mofh['domain'];?></a>
+            <a href="/" id="logo-container" class="brand-logo"><?=$mofh['title'];?></a>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="right hide-on-med-and-down">
                     <li itemprop="name"><a href="free-hosting.php" itemprop="url">Free Hosting</a></li>
                     <li itemprop="name"><a href="premium-hosting.php" itemprop="url">Premium Hosting</a></li>
