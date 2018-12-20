@@ -1,8 +1,11 @@
 <?php
+include 'config.php';
+?>
+<?php
 
 if(isset($_POST['email'])) {
 
-    $email_to = "YOUR EMAIL ID GOES HERE";
+    $email_to = "<?=$mofh['mail'];?>";
  
     $email_subject = "Web Hosting Contact";
 
