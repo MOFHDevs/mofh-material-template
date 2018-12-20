@@ -267,7 +267,7 @@ include 'config.php';
             <div class="col l3 s12">
                 <h5 class="white-text"><?=$mofh['title'];?></h5>
                 <ul>
-                    <li><a class="white-text" href="<? echo "$yourdomain" ;?>">Home</a></li>
+                    <li><a class="white-text" href="<?=$mofh['domain'];?>">Home</a></li>
                     <li><a class="white-text" href="free-hosting.php">Free Hosting</a></li>
                 </ul>
             </div>
