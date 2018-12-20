@@ -6,6 +6,8 @@ $mofh = array(
 'logo' => '/images/logo.png', // Logo URL
      
 'protocol' => 'https://', // it is https or http
+   
+ 'favicon' => '/favicon.ico', // your website favicon url
 
  'mail' => 'some@mofh.ooo', // email here
      
