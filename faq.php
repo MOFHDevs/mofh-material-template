@@ -181,7 +181,7 @@ include 'config.php';
     </div>
     <div class="footer-copyright default_color">
         <div class="container">
-            Made with <i class="mdi-action-favorite"> by <a class="white-text" href="https://github.com/MOFHDevWorld">MOFHDevWorld</a>
+            Made with <i class="mdi-action-favorite"></i> by <a class="white-text" href="https://github.com/MOFHDevWorld">MOFHDevWorld</a>
         </div>
     </div>
 </footer>
