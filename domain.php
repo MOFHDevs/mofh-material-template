@@ -20,7 +20,7 @@ include 'config.php';
 	<meta property="og:image" content="<?=$mofh['logo'];?>">
 	<meta property="og:locale" content="en_US">
 	<link rel="canonical" href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/domain.php">
-	<link rel='shortcut icon' href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>">
+	<link rel='shortcut icon' href="<?=$mofh['protocol'];?><?=$mofh['favicon'];?>">
 
     <!-- CSS  -->
     <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
