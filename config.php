@@ -9,13 +9,13 @@ $mofh = array(
 
  'mail' => 'some@mofh.ooo', // email here
      
- 'facebook' => 'https://www.facebook.com/Arcenas090', // your facebook link
+ 'facebook' => 'https://www.facebook.com/#', // your facebook link
      
- 'twitter' => 'https://twitter.com/Arcenas090', // your twitter link
+ 'twitter' => 'https://twitter.com/#', // your twitter link
      
- 'google-plus' => 'https://plus.google.com/+Arcenas090', // your google plus link
+ 'google-plus' => 'https://plus.google.com/#', // your google plus link
      
- 'linkedin' => 'https://www.linkedin.com/in/Arcenas090', // your linkedin link
+ 'linkedin' => 'https://www.linkedin.com/in/#', // your linkedin link
 
 'domain' => strtolower(preg_replace('/^www\./' , '' , $_SERVER['HTTP_HOST'])), // Automatic Domain Recognition
 
