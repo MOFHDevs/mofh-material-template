@@ -11,8 +11,15 @@ A Template for MyOwnFreeHost based on Material Design.
 
 
 ## How to install?
-Download and upload all the files on your web hosting and modify the files as you want but don't remove credits.  
-You don't need to do anything else, all scripts should be working. If something is not working submit an issue or make a PR fixing it.
+Download and upload all the files on your web hosting. Then all you need to edit id <b>Config.php</b> file.
+### title
+In `title` you just need to replace `MOFH-Material-Template` with your company name.
+### logo
+In `logo` just replace `/images/logo.png` with URL of your Company's logo.
+### protocol
+In `protocol` all you need to do is to change protocal of of site that is `http` or `https`. If you are using SSL let it be default otherwise change to `http`
+### domain
+You need nothing to do with this it will automatically detect URL of your site.
 
 
 ## Copyright and Credits
