@@ -1,12 +1,12 @@
-<?
-include('geturl.php');    
+<?php
+include 'config.php';
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <title>Domain Names - <? echo "$yourdomain" ;?></title>
+    <title>Domain Names - <?=$mofh['title'];?></title>
 	<meta name="keywords" content="free, web, hosting, web hosting, domain names, web site, search engine optimization, hosting, servers, domain, names, availability, created, page">
 	<meta name="description" content="Get Free Professional Web Hosting for your Website">
 	<meta name="author" content="MOFHDevWorld">
@@ -14,12 +14,12 @@ include('geturl.php');
 	<meta name="revisit-after" content="5 days">
 	<meta name="theme-color" content="#2196F3">
 	<meta name="twitter:card" content="summary_large_image">
-    <meta property="og:url" content="https://"> 
+    <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/domain.php"> 
 	<meta property="og:type" content="website"> 
 	<meta property="og:title" content="Domain Names - Free Professional Web Hosting">
-	<meta property="og:image" content="https://">
+	<meta property="og:image" content="<?=$mofh['logo'];?>">
 	<meta property="og:locale" content="en_US">
-	<link rel="canonical" href="https://">
+	<link rel="canonical" href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/domain.php">
 	<link rel='shortcut icon' href="favicon.ico">
 
     <!-- CSS  -->
@@ -42,7 +42,7 @@ include('geturl.php');
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-            <a href="/" id="logo-container" class="brand-logo"><? echo "$yourdomain" ;?></a>
+            <a href="/" id="logo-container" class="brand-logo"><?=$mofh['domain'];?></a>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="right hide-on-med-and-down">
                     <li itemprop="name"><a href="free-hosting.php" itemprop="url">Free Hosting</a></li>
                     <li itemprop="name"><a href="premium-hosting.php" itemprop="url">Premium Hosting</a></li>
@@ -388,9 +388,9 @@ include('geturl.php');
             </div>
         </div>
     </div>
-    <div class="footer-copyright default_color">
+   <div class="footer-copyright default_color">
         <div class="container">
-            Made by <a class="white-text" href="http://joashpereira.com">Joash Pereira</a>. Thanks to <a class="white-text" href="http://materializecss.com/">materializecss</a>
+            Made by <a class="white-text" href="https://github.com/MOFHDevWorld">MOFHDevWorld</a>
         </div>
     </div>
 </footer>
