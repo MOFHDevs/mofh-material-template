@@ -14,7 +14,7 @@ include 'config.php';
 	<meta name="revisit-after" content="5 days">
 	<meta name="theme-color" content="#2196F3">
 	<meta name="twitter:card" content="summary_large_image">
-    <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>>
+    <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Free Professional Web Hosting">
 	<meta property="og:image" content="<?=$mofh['logo'];?>">
@@ -267,7 +267,7 @@ include 'config.php';
             <div class="col l3 s12">
                 <h5 class="white-text"><?=$mofh['title'];?></h5>
                 <ul>
-                    <li><a class="white-text" href="<?=$mofh['domain'];?>">Home</a></li>
+                    <li><a class="white-text" href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>">Home</a></li>
                     <li><a class="white-text" href="free-hosting.php">Free Hosting</a></li>
                 </ul>
             </div>
