@@ -23,7 +23,7 @@ In `favicon` just replace `/img/favicon.ico` with the URL of your company's logo
 ### Customize Social Media
 In `facebook`, `twitter`, `google-plus` and `linkedin` replace `https://www.facebook.com/#`, `https://twitter.com/#`, `https://plus.google.com/#` and `https://www.linkedin.com/in/#` respectively with your social profile links.
 ### Change the domain
-You don't need to customize anything here, as the GetURL script we have provided will automatically detect the URL of your site. If the GetURL does not work for some reason though, just change it to your domain's address.
+You don't need to customize anything here, as the script we have provided will automatically detect the URL of your site. If the script does not work for some reason though, just change it to your domain's address.
 
 
 ## Copyright and Credits
