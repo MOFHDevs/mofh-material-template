@@ -260,6 +260,37 @@ nav a.button-collapse {
     max-height: 400px;
 }
 
+.card-head{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 27px;
+	font-weight: 600;
+	color: #ECF0F1;
+	padding: 1em;
+}
+
+.card-head-content{
+	vertical-align: middle;
+}
+
+.card-head-content .price{
+	font-size: 16px !important;
+}
+
+.ptable-border {
+    line-height: 1.5rem;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.ptable-padone {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.ptable-padding {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
 footer.page-footer {
     margin-top: 0px !important;
 }
