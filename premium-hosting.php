@@ -14,12 +14,12 @@ include 'config.php';
 	<meta name="revisit-after" content="5 days">
 	<meta name="theme-color" content="#2196F3">
 	<meta name="twitter:card" content="summary_large_image">
-    <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/faq.php"> 
+    <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/premium-hosting.php"> 
 	<meta property="og:type" content="website"> 
 	<meta property="og:title" content="Premium Hosting - <?=$mofh['title'];?>">
 	<meta property="og:image" content="<?=$mofh['logo'];?>">
 	<meta property="og:locale" content="en_US">
-	<link rel="canonical" href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/faq.php">
+	<link rel="canonical" href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/premium-hosting.php">
 	<link rel='shortcut icon' href="<?=$mofh['favicon'];?>">
 
     <!-- CSS  -->
