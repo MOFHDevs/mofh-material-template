@@ -8,7 +8,7 @@ include 'config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <title>Domain Names - <?=$mofh['title'];?></title>
 	<meta name="keywords" content="free, web, hosting, web hosting, domain names, web site, search engine optimization, hosting, servers, domain, names, availability, created, page">
-	<meta name="description" content="Get Free Professional Web Hosting for your Website">
+	<meta name="description" content="Easily check availability of domain names and register cheap domains securely with <?=$mofh['title'];?>. Visit us and register your domain to get many premium features for free!">
 	<meta name="author" content="MOFHDevWorld">
 	<meta name="robots" content="index, follow">
 	<meta name="revisit-after" content="5 days">
@@ -17,6 +17,7 @@ include 'config.php';
     <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/domain.php"> 
 	<meta property="og:type" content="website"> 
 	<meta property="og:title" content="Domain Names - Free Professional Web Hosting">
+	<meta property="og:description" content="Easily check availability of domain names and register cheap domains securely with <?=$mofh['title'];?>. Visit us and register your domain to get many premium features for free!">
 	<meta property="og:image" content="<?=$mofh['logo'];?>">
 	<meta property="og:locale" content="en_US">
 	<link rel="canonical" href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/domain.php">
