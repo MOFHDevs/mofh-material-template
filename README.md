@@ -15,7 +15,7 @@ Download and upload all the files on your web hosting. Then all you need to edit
 ### Customize Title
 In `title` you just need to replace `MOFH-Material-Template` with your company's name.
 ### Customize Logo
-In `logo` just replace `/img/logo.png` with the URL of your company's logo or replace the picture there with your logo.
+In `logo` just replace `https://domain.tld/img/logo.png` with the URL of your company's logo or replace the picture there with your logo.
 ### Change the protocol used
 In `protocol` all you need to do is to change the protocol of the site to `http` or `https`, based on which one you want to use. The default setting is `https`, if you are not using SSL change it to `http`.
 ### Customize Favicon
