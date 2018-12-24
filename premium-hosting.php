@@ -16,7 +16,7 @@ include 'config.php';
 	<meta name="twitter:card" content="summary_large_image">
     <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/premium-hosting.php"> 
 	<meta property="og:type" content="website"> 
-	<meta property="og:description" content"View premium web hosting plans from <?=$mofh['title'];?>. Our Starter, Super Premium & Ultimate Premium plans are fast, reliable & secure to get sites off the ground fast!">
+	<meta property="og:description" content="View premium web hosting plans from <?=$mofh['title'];?>. Our Starter, Super Premium & Ultimate Premium plans are fast, reliable & secure to get sites off the ground fast!">
 	<meta property="og:title" content="Premium Hosting - <?=$mofh['title'];?>">
 	<meta property="og:image" content="<?=$mofh['logo'];?>">
 	<meta property="og:locale" content="en_US">
