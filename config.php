@@ -5,7 +5,7 @@ $mofh = array(
      
 'description' => 'Get Free Professional Web Hosting for your Website', // Site Description
     
-'logo' => '/img/logo.png', // Logo URL
+'logo' => 'https://domain.tld/img/logo.png', // Logo URL
      
 'protocol' => 'https://', // it is https or http
    
