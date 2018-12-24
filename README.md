@@ -20,6 +20,8 @@ In `logo` just replace `/img/logo.png` with the URL of your company's logo or re
 In `protocol` all you need to do is to change the protocol of the site to `http` or `https`, based on which one you want to use. The default setting is `https`, if you are not using SSL change it to `http`.
 ### Customize Favicon
 In `favicon` just replace `/img/favicon.ico` with the URL of your company's logo which you want to show as favicon.
+### Change Affiliate ID
+In `affid` just replace `25705` with your iFastNet affiliate id.
 ### Customize Social Media
 In `facebook`, `twitter`, `google-plus` and `linkedin` replace `https://www.facebook.com/#`, `https://twitter.com/#`, `https://plus.google.com/#` and `https://www.linkedin.com/in/#` respectively with your social profile links.
 ### Change the domain
