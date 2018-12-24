@@ -8,7 +8,7 @@ include 'config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <title>FAQ's - <?=$mofh['title'];?></title>
 	<meta name="keywords" content="free, web, hosting, web hosting, faq, web site, search engine optimization, hosting, servers, faqs, frequently, asked, questions, frequently asked questions, availability, created, page">
-	<meta name="description" content="Get Free Professional Web Hosting for your Website">
+	<meta name="description" content="Frequently Asked Questions of <?=$mofh['title'];?> that will answer your many questions about our hosting.">
 	<meta name="author" content="MOFHDevWorld">
 	<meta name="robots" content="index, follow">
 	<meta name="revisit-after" content="5 days">
@@ -17,6 +17,7 @@ include 'config.php';
     <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/faq.php"> 
 	<meta property="og:type" content="website"> 
 	<meta property="og:title" content="FAQ's - Free Professional Web Hosting">
+	<meta property="og:description" content="Frequently Asked Questions of <?=$mofh['title'];?> that will answer your many questions about our hosting.">
 	<meta property="og:image" content="<?=$mofh['logo'];?>">
 	<meta property="og:locale" content="en_US">
 	<link rel="canonical" href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/faq.php">
