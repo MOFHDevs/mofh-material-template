@@ -8,7 +8,7 @@ include 'config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <title>Premium Hosting - <?=$mofh['title'];?></title>
 	<meta name="keywords" content="free, web, hosting, web hosting, premium, web site, search engine optimization, hosting, servers, ph, premium hosting, shared, paid, availability, created, page">
-	<meta name="description" content="Get Award Winning Premium Web Hosting for your Website">
+	<meta name="description" content="View premium web hosting plans from <?=$mofh['title'];?>. Our Starter, Super Premium & Ultimate Premium plans are fast, reliable & secure to get sites off the ground fast!">
 	<meta name="author" content="MOFHDevWorld">
 	<meta name="robots" content="index, follow">
 	<meta name="revisit-after" content="5 days">
@@ -16,6 +16,7 @@ include 'config.php';
 	<meta name="twitter:card" content="summary_large_image">
     <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/premium-hosting.php"> 
 	<meta property="og:type" content="website"> 
+	<meta property="og:description" content"View premium web hosting plans from <?=$mofh['title'];?>. Our Starter, Super Premium & Ultimate Premium plans are fast, reliable & secure to get sites off the ground fast!">
 	<meta property="og:title" content="Premium Hosting - <?=$mofh['title'];?>">
 	<meta property="og:image" content="<?=$mofh['logo'];?>">
 	<meta property="og:locale" content="en_US">
