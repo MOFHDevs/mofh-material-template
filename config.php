@@ -8,6 +8,8 @@ $mofh = array(
 'protocol' => 'https://', // it is https or http
    
  'favicon' => '/img/favicon.ico', // your website favicon url
+     
+ 'affid' => '25705', // your ifastnet affiliate id
 
  'mail' => 'some@mofh.ooo', // email here
      
