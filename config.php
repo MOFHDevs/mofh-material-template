@@ -2,6 +2,8 @@
 $mofh = array(
      
 'title' => 'MOFH-Material-Template', // Site title
+     
+'description' => 'Get Free Professional Web Hosting for your Website', // Site Description
     
 'logo' => '/img/logo.png', // Logo URL
      
