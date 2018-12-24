@@ -8,7 +8,7 @@ include 'config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <title><?=$mofh['title'];?> - Free Professional Web Hosting</title>
 	<meta name="keywords" content="free, web, hosting, web hosting, domain names, web site, search engine optimization, hosting, servers, cpanel hosting, cpanel, free website, reliable hosting, professional hosting">
-	<meta name="description" content="Get Free Professional Web Hosting for your Website">
+	<meta name="description" content="<?=$mofh['description'];?>">
 	<meta name="author" content="MOFHDevWorld">
 	<meta name="robots" content="index, follow">
 	<meta name="revisit-after" content="5 days">
@@ -17,6 +17,7 @@ include 'config.php';
     <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Free Professional Web Hosting">
+	<meta property="og:description" content="<?=$mofh['description'];?>">
 	<meta property="og:image" content="<?=$mofh['logo'];?>">
 	<meta property="og:locale" content="en_US">
 	<link rel="canonical" href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>">
