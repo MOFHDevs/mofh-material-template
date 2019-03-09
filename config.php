@@ -1,7 +1,7 @@
 <?php
 $mofh = array(
      
-'title' => 'MOFH-Material-Template', // Site title
+'title' => 'MOFHDevWorld', // Site title
      
 'description' => 'Get Free Professional Web Hosting for your Website', // Site Description
     
@@ -9,19 +9,19 @@ $mofh = array(
      
 'protocol' => 'https://', // it is https or http
    
- 'favicon' => '/img/favicon.ico', // your website favicon url
+ 'favicon' => '/img/favicon.ico', // your website favicon URL
      
- 'affid' => '25705', // your ifastnet affiliate id
+ 'affid' => '25705', // your iFastNet affiliate ID
 
- 'mail' => 'some@mofh.ooo', // email here
+ 'mail' => 'contact@mofh.ooo', // email here
      
- 'facebook' => 'https://www.facebook.com/#', // your facebook link
+ 'facebook' => 'https://www.facebook.com/#', // your Facebook link
      
- 'twitter' => 'https://twitter.com/#', // your twitter link
+ 'twitter' => 'https://twitter.com/#', // your Twitter link
      
- 'google-plus' => 'https://plus.google.com/#', // your google plus link
+ 'google-plus' => 'https://plus.google.com/#', // your Google Plus link
      
- 'linkedin' => 'https://www.linkedin.com/in/#', // your linkedin link
+ 'linkedin' => 'https://www.linkedin.com/in/#', // your LinkedIn link
 
 'domain' => strtolower(preg_replace('/^www\./' , '' , $_SERVER['HTTP_HOST'])), // Automatic Domain Recognition
 

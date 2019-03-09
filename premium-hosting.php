@@ -14,8 +14,8 @@ include 'config.php';
 	<meta name="revisit-after" content="5 days">
 	<meta name="theme-color" content="#2196F3">
 	<meta name="twitter:card" content="summary_large_image">
-    <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/premium-hosting.php"> 
-	<meta property="og:type" content="website"> 
+    <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/premium-hosting.php">
+	<meta property="og:type" content="website">
 	<meta property="og:description" content="View premium web hosting plans from <?=$mofh['title'];?>. Our Starter, Super Premium & Ultimate Premium plans are fast, reliable & secure to get sites off the ground fast!">
 	<meta property="og:title" content="Premium Hosting - <?=$mofh['title'];?>">
 	<meta property="og:image" content="<?=$mofh['logo'];?>">
@@ -33,10 +33,10 @@ include 'config.php';
 <!-- Pre Loader -->
 <div id="loader-wrapper">
     <div id="loader"></div>
- 
+
     <div class="loader-section section-left"></div>
     <div class="loader-section section-right"></div>
- 
+
 </div>
 
 <!--Navigation-->
@@ -72,7 +72,7 @@ include 'config.php';
             <span style="color:#fff">Premium Hosting</span></h1>
 			<h4 class="center-align">
 			<span style="color:#fff">The best award winning premium hosting everyone desires</span></h4>
-		
+
 		</div>
     </div>
     <div class="section no-pad-bot" id="pricing-tabe">
@@ -81,17 +81,17 @@ include 'config.php';
       <h2 class="center header text_h2"> Choose Your <span class="span_h2">Premium</span> Hosting Plan!</h2>
   </div>
   <div class="row">
-  
+
     <div class=" col s12 m4">
       <div class="card">
-    
+
        <div class="card-head default_color">
             <div class="card-head-content center">
               <span>Starter</span><br>
               <span class="price white-text">$17.99/year</span>
             </div>
           </div>
-       
+
         <table class="highlight centered">
         <tbody>
           <tr>
@@ -126,7 +126,7 @@ include 'config.php';
           </tr>
         </tbody>
       </table>
-        
+
         <div class="ptable-padding center">
           <div class="row">
             <div class="col s12">
@@ -134,22 +134,22 @@ include 'config.php';
             </div>
           </div>
         </div>
-        
+
       </div>
     </div>
-    
-    
-      
+
+
+
     <div class=" col s12 m4">
       <div class="card">
-    
+
        <div class="card-head default_color">
             <div class="card-head-content center">
               <span>Super Premium</span><br>
               <span class="price white-text">$47.88/year</span>
             </div>
           </div>
-       
+
         <table class="highlight centered">
         <tbody>
           <tr>
@@ -184,7 +184,7 @@ include 'config.php';
           </tr>
         </tbody>
       </table>
-        
+
         <div class="ptable-padding center">
           <div class="row">
             <div class="col s12">
@@ -192,20 +192,20 @@ include 'config.php';
             </div>
           </div>
         </div>
-        
+
       </div>
     </div>
 
       <div class=" col s12 m4">
       <div class="card">
-    
+
        <div class="card-head default_color">
             <div class="card-head-content center">
               <span>Ultimate Premium</span><br>
               <span class="price white-text">$83.88/year</span>
             </div>
           </div>
-       
+
         <table class="highlight centered">
         <tbody>
           <tr>
@@ -240,7 +240,7 @@ include 'config.php';
           </tr>
         </tbody>
       </table>
-        
+
         <div class="ptable-padding center">
           <div class="row">
             <div class="col s12">
@@ -248,7 +248,7 @@ include 'config.php';
             </div>
           </div>
         </div>
-        
+
       </div>
     </div>
     </div>
@@ -980,7 +980,7 @@ include 'config.php';
 <div class="section no-pad-bot" id="ph-wci">
     <div class="container">
         <div class="row">
-            <h2 class="center header text_h2"><span class="white-text">Why Choose </span><span class="span_h2">iFastNet</span><span class="whie-text">?</span></h2>
+            <h2 class="center header text_h2"><span class="white-text">Why Choose </span><span class="span_h2">iFastNet</span><span class="white-text">?</span></h2>
             <div class="row">
       <div class="col s3">
         <div class="center promo promo-example">
