@@ -1,0 +1,196 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline}
+/* Global properties */
+body {background:#fff;font-family:Arial, Helvetica, sans-serif;font-size:120%;line-height:1em;color:#464646}
+html {min-width:980px}
+html, body {height:100%}
+/* Global Structure = */
+.container {margin:0 auto;width:990px;font-size:.75em}
+/* Header */
+header .container {height:131px;overflow:hidden;position:relative}
+/* Sidebar */
+aside {background:url(../images/aside-tail.gif) repeat-x left top #131313;min-width:980px}
+/* Footer */
+footer .container {text-align:center;line-height:1.667em;padding:26px 0}
+/* Left & Right alignment */
+.fleft {float:left}
+.fright {float:right}
+.clear {clear:both}
+.col-1, .col-2, .col-3, .col-4, .col-5 {float:left}
+.alignright {text-align:right}
+.aligncenter {text-align:center}
+.wrapper {width:100%;overflow:hidden}
+.wrap {width:100%}
+/* tailings */
+.tail-top, .tail-top1, .tail-top2, .tail-top3 {background-repeat:repeat-x;background-color:#f2f2f2;background-position:left top;min-width:980px}
+.tail-top {background-image:url(../images/tail-top.gif)}
+.tail-top1 {background-image:url(../images/tail-top1.gif)}
+.tail-top2 {background-image:url(../images/tail-top2.gif)}
+.tail-top3 {background-image:url(../images/tail-top3.gif)}
+/* form defaults */
+input, select, textarea {font-family:Arial, Helvetica, sans-serif;font-size:1em;vertical-align:middle;font-weight:normal;color:#393939;margin:0;padding:0}
+fieldset {border:0}
+/* lists */
+.info-list {padding-bottom:5px}
+.info-list li {text-align:right;width:100%;overflow:hidden;vertical-align:top;border-bottom:1px solid #dfdfdf;padding:0 0 6px 5px;margin:0 0 6px -5px}
+.info-list li span {float:left}
+.info-list1 {padding-bottom:5px}
+.info-list1 li {width:100%;overflow:hidden;vertical-align:top;border-top:1px solid #dfdfdf;padding:6px 0 0 5px;margin:6px 0 0 -5px}
+.info-list1 li:first-child {border:none;padding-top:0;margin-top:0}
+.info-list1.alt li {text-align:center}
+.solutions li {width:100%;overflow:hidden;vertical-align:top;margin:18px 0 0 -8px;background:url(../images/divider1.gif) repeat-x left top;padding-top:20px}
+.solutions li:first-child {background:none;padding-top:0;margin-top:0}
+.solutions li img {float:left;margin-right:9px} 
+.solutions li p {margin-bottom:10px}
+.list li {line-height:1.667em}
+.list li:first-child {font-weight:bold}
+.list li,
+.list li a {color:#e5e5e5}
+.list li a {text-decoration:none}
+.list li a:hover {color:#6fa803}
+.list1 {padding-bottom:11px} 
+.list1 li {padding:0 0 15px 10px;height:1%;background:url(../images/marker.gif) no-repeat left 4px}
+.banners {padding:12px 0 0 0}
+.banners li {float:left;font-size:26px;line-height:2.4em;letter-spacing:-1px;margin-left:6px}
+.banners li:first-child {margin-left:0}
+.banners li a {width:242px;display:block;height:65px;background:url(../images/banner-bg.gif) no-repeat left top;text-align:center;color:#fff;text-decoration:none}
+/* other */
+.img-indent {margin:0 20px 0 0;float:left}
+.img-box {width:100%;overflow:hidden;padding-bottom:12px;line-height:1.667em}
+.img-box img {float:left;margin:0 20px 0 -1px}
+.extra-wrap {overflow:hidden}
+p {margin-bottom:10px;line-height:1.667em}
+.p0 {margin:0}
+.p1 {margin-bottom:18px}
+.price {text-align:center;display:block;font-size:30px;line-height:1.2em;letter-spacing:-1px;padding-bottom:10px}
+#slogan {background:url(../images/slogan-bg.jpg) no-repeat left top;width:980px;height:220px;margin:12px 0 0 0;position:relative;left:3px;color:#fff;text-shadow:1px 1px #3e7901;position:relative}
+#slogan h2 {font-size:26px;text-transform:uppercase;color:#fff}
+#slogan h2 span {color:#262626}
+#slogan .inside {position:absolute;left:360px;top:50px;width:576px}
+address {font-style:normal;line-height:1.667em;display:block;padding-bottom:20px}
+address b {float:left;width:73px}
+/* txt, links, lines, titles */
+a {color:#428301;outline:none}
+a:hover {text-decoration:none}
+h1 {padding:17px 0 0 44px;font-size:36px;line-height:1.2em}
+h1 a {text-decoration:none}
+h2 {color:#464646;font-size:30px;line-height:1.2em;margin-bottom:15px;letter-spacing:-1px}
+h2.extra {padding:30px 0 0 43px}
+h3 {font-size:26px;line-height:1.2em;color:#fff;margin-bottom:30px}
+h4 {font-size:20px;line-height:1.2em;color:#fff;margin-bottom:27px;letter-spacing:-1px}
+h4.extra {margin-bottom:12px}
+h5 {font-size:1em;line-height:1.667em;margin-bottom:10px}
+.link1 {display:inline-block;color:#fff;font-size:15px;line-height:1.2em;text-decoration:none;background:url(../images/link1-right.png) no-repeat right top;padding-right:7px;letter-spacing:-1px;text-transform:uppercase}
+.link1:hover {color:#82b704}
+.link1 span {display:block;background:url(../images/link1-left.png) no-repeat left top;padding-left:7px}
+.link1 span span {background:url(../images/link1-bgd.png) left top repeat-x;padding:12px 14px}
+.link2 {display:inline-block;color:#fff;font-size:15px;line-height:1.2em;text-decoration:none;background:url(../images/link2-bgd.gif) left top repeat-x;letter-spacing:-1px;text-transform:uppercase}
+.link2:hover {color:#000}
+.link2 span {display:block;background:url(../images/link2-left.gif) no-repeat left top}
+.link2 span span {background:url(../images/link2-right.gif) no-repeat right top;padding:10px 22px}
+.link3 {display:inline-block;color:#fff;font-size:15px;line-height:1.2em;text-decoration:none;background:url(../images/link3-bgd.gif) left top repeat-x;letter-spacing:-1px;text-transform:uppercase}
+.link3:hover {color:#82b704}
+.link3 span {display:block;background:url(../images/link3-left.gif) no-repeat left top}
+.link3 span span {background:url(../images/link3-right.gif) no-repeat right top;padding:8px 19px}
+.link4 {display:inline-block;color:#fff;font-size:15px;line-height:1.2em;text-decoration:none;background:url(../images/link4-bgd.gif) left top repeat-x;letter-spacing:-1px;text-transform:uppercase}
+.link4:hover {color:#82b704}
+.link4 span {display:block;background:url(../images/link4-left.gif) no-repeat left top}
+.link4 span span {background:url(../images/link4-right.gif) no-repeat right top;padding:10px 22px}
+.line-ver1 {background-image:url(../images/line-ver1.gif);background-repeat:repeat-y;background-position:336px 0;width:100%}
+.line-ver2 {background-image:url(../images/line-ver1.gif);background-repeat:repeat-y;background-position:457px 0;width:100%}
+.line-ver3 {background-image:url(../images/line-ver1.gif);background-repeat:repeat-y;background-position:617px 0;width:100%}
+.line-ver4 {background-image:url(../images/line-ver1.gif);background-repeat:repeat-y;background-position:777px 0;width:100%}
+/* boxes */
+.header-box {width:100%;background:url(../images/header-box-tail.gif) repeat-x left top;position:relative;top:50px}
+.header-box .left {background:url(../images/header-box-left.gif) no-repeat left top}
+.header-box .right {background:url(../images/header-box-right.gif) no-repeat right top;height:81px}
+.box {background:url(../images/box-tail.gif) repeat-x left top #fff;width:100%}
+.box .border-bot {background:url(../images/border-bot.gif) repeat-x left bottom}
+.box .border-left {background:url(../images/border-left.gif) repeat-y left top}
+.box .border-right {background:url(../images/border-right.gif) repeat-y right top}
+.box .left-top-corner {background:url(../images/left-top-corner.gif) no-repeat left top}
+.box .right-top-corner {background:url(../images/right-top-corner.gif) no-repeat right top}
+.box .left-top-corner1 {background:url(../images/left-top-corner1.gif) no-repeat left top}
+.box .right-top-corner1 {background:url(../images/right-top-corner1.gif) no-repeat right top}
+.box .left-bot-corner {background:url(../images/left-bot-corner.gif) no-repeat left bottom;width:100%}
+.box .right-bot-corner {background:url(../images/right-bot-corner.gif) no-repeat right bottom}
+.box .inner {padding:15px 38px 26px 43px}
+.box.extra {background-image:url(../images/box-tail1.gif);background-repeat:repeat-x;width:100%}
+.box.extra .inner {padding:4px 4px 1px 4px}
+.box .border-top {background-image:url(../images/box-tail2.gif);background-repeat:repeat-x;width:100%}
+.box .inner1 {padding:7px 0 0 0}
+/* header */
+header nav {float:right;padding:13px 24px 0 0}
+header nav li {float:left;font-size:18px;line-height:3em;text-transform:uppercase;padding-left:21px;margin-left:19px;background:url(../images/divider.gif) repeat-y left top}
+header nav li:first-child {background:none;padding-left:0;margin-left:0}
+header nav li a {color:#fff;text-decoration:none}
+header nav li.current a, header nav li a:hover {color:#82b704}
+header .top-info {position:absolute;left:45px;top:17px}
+/* content */
+#content .inside {padding:0 2px}
+#content .inside1 {padding:40px 0 48px 42px}
+#content .left-indent {padding-left:39px}
+#content .bot-indent {padding-bottom:54px}
+#content .bot-indent1 {padding-bottom:12px}
+#content .indent {padding:7px 0 18px 0}
+#content .indent1 {padding:17px 0 18px 0}
+/* Sidebar */
+aside .inside {padding:35px 40px 35px 44px}
+aside .line-ver1 {background-image:url(../images/line-ver.gif);background-repeat:repeat-y;background-position:162px 0;width:100%}
+aside .line-ver2 {background-image:url(../images/line-ver.gif);background-repeat:repeat-y;background-position:354px 0;width:100%}
+aside .line-ver3 {background-image:url(../images/line-ver.gif);background-repeat:repeat-y;background-position:547px 0;width:100%}
+aside .line-ver4 {background-image:url(../images/line-ver.gif);background-repeat:repeat-y;background-position:742px 0;width:100%}
+#login-form fieldset {position:absolute;right:45px;top:15px}
+#login-form span.text {float:left;width:104px;height:23px;margin-left:5px;background:url(../images/input-bg1.gif) no-repeat left top}
+#login-form input {border:none;background:none;padding:4px 10px;vertical-align:top;color:#9b9b9b;width:84px}
+*+ html #login-form input {padding-top:3px}
+.ic, .ic a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+#login-form a.login {color:#fff;text-decoration:none;text-shadow:1px 1px #295c01;float:left;background:url(../images/button-tail1.gif) repeat-x left top;position:relative;top:-2px;margin-left:3px}
+#login-form a.login span {display:block;background:url(../images/button-left1.gif) no-repeat left top}
+#login-form a.login span span {padding:5px 22px 6px 22px;background:url(../images/button-right1.gif) no-repeat right top}
+#login-form span.links {font-size:.923em;line-height:1.2em;float:left;padding-left:8px;position:relative;top:-2px}
+#login-form span.links a {color:#464646}#domain-form {padding-bottom:35px}
+#domain-form span.text {display:block;background:url(../images/input-bg2.gif) no-repeat left top;width:217px;height:21px;margin:11px 0 13px 0}
+#domain-form label {margin-left:6px;padding-top:0;float:left}
+#domain-form span.text input {background:none;border:none;color:#9b9b9b;vertical-align:top;width:197px !important;padding:3px 10px}
+#domain-form ul.checkboxes li {float:left;width:100px;padding-bottom:13px}
+#domain-form ul.checkboxes li.alt {width:auto}
+#domain-form ul.links {padding:9px 0 0 33px}
+#domain-form ul.links li {float:left;line-height:1.2em;border-left:1px solid #464646;padding-left:11px;margin-left:11px}
+#domain-form ul.links li:first-child {border:none;padding:0;margin:0}
+#contacts-form .field {width:100%;overflow:hidden}
+#contacts-form .field.text {height:30px}
+#contacts-form label {float:left;width:94px}
+#contacts-form input,
+#contacts-form textarea { border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;behavior:url(js/PIE.htc);position:relative; border:1px solid #cbcbcb; background-color:#fff;float:left; color:#464646}
+#contacts-form input {width:300px;padding:3px 3px}
+#contacts-form textarea {width:549px;height:293px;padding:3px 3px;overflow:auto;margin-bottom:17px}
+#contacts-form a {margin-left:6px}
+/* slider */
+#faded {width:990px;height:350px;margin:7px 0;background:url(../images/slider-bg.jpg) no-repeat 25px 5px}
+#faded ul {list-style:none;padding:0;margin:0}
+#faded ul.pagination {list-style:none;padding:0;margin:0;width:246px;height:350px;background:url(../images/pagination-bg.jpg) no-repeat left top}
+#faded ul.pagination li {padding:5px 0 0 5px;margin-bottom:-5px}
+#faded ul.pagination li a {width:270px;height:85px;background-repeat:no-repeat;background-position:left -85px;background-image:url(../images/thumb-sprite.png);text-decoration:none;display:block;color:#464646}
+#faded ul.pagination li.current a {background-position:left top;color:#fff}
+#faded ul.pagination li a span {font-size:30px;line-height:1.2em;display:block;padding:14px 0 0 0}
+#faded ul.pagination li a small {display:inline-block;color:#428301;background-repeat:no-repeat;background-position:right -80px;background-image:url(../images/arrows.gif);padding:0 17px 0 0}
+#faded ul.pagination li a span,
+#faded ul.pagination li a small {padding-left:40px}
+#faded ul.pagination li.current a small {color:#82b704;background-position:right 5px}
+#faded ul.slides li {position:relative;width:100%}
+#faded ul.slides li img {position:absolute;top:71px;right:35px}
+#faded ul.slides li a {color:#fff;text-transform:uppercase;text-decoration:none;position:absolute;right:43px;top:217px;font-size:18px;line-height:1.2em;padding-left:8px;background:url(../images/button-left.png) no-repeat left top;letter-spacing:-1px}
+#faded ul.slides li a:hover {color:#8ab805}
+#faded ul.slides li a span {display:block;padding-right:8px;background:url(../images/button-right.png) no-repeat right top}
+#faded ul.slides li a span span {background:url(../images/button-tail.png) repeat-x left top;padding:15px 14px 17px 14px}
+a {outline:0;border:0}
+/* custom forms */
+/* Checkboxes */
+span.jqTransformCheckboxWrapper {display:block;float:left}
+a.jqTransformCheckbox {background:transparent url(../images/checkbox.gif) no-repeat left -30px;vertical-align:middle;height:17px;width:17px;display:block;/*display:-moz-inline-block;*/}
+/* Checked - Used for both Radio and Checkbox */
+a.jqTransformChecked {background-position:left top}
+/* Hidden - used to hide the original form elements */
+.jqTransformHidden {display:none}

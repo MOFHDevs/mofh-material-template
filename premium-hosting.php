@@ -44,16 +44,18 @@ include 'config.php';
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-            <a href="/" id="logo-container" class="brand-logo"><?=$mofh['title'];?></a>
+            <a href="/" id="logo-container" class="brand-logo"><?=$mofh['title'];?></a><br>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="right hide-on-med-and-down">
-                    <li itemprop="name"><a href="free-hosting.php" itemprop="url">Free Hosting</a></li>
+                    <li itemprop="name"><a href="signup.php" itemprop="url">Signup</a></li>
+                    <li itemprop="name"><a href="login.php" itemprop="url">Login</a></li>
                     <li itemprop="name"><a href="premium-hosting.php" itemprop="url">Premium Hosting</a></li>
                     <li itemprop="name"><a href="domain.php" itemprop="url">Domains</a></li>
                     <li itemprop="name"><a href="faq.php" itemprop="url">FAQ</a></li>
                     <li itemprop="name"><a href="#contact" itemprop="url">Contact</a></li>
                 </ul>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" id="nav-mobile" class="side-nav">
-                    <li itemprop="name"><a href="free-hosting.php" itemprop="url">Free Hosting</a></li>
+                    <li itemprop="name"><a href="signup.php" itemprop="url">Signup</a></li>
+                    <li itemprop="name"><a href="login.php" itemprop="url">Login</a></li>
                     <li itemprop="name"><a href="premium-hosting.php" itemprop="url">Premium Hosting</a></li>
                     <li itemprop="name"><a href="domain.php" itemprop="url">Domains</a></li>
                     <li itemprop="name"><a href="faq.php" itemprop="url">FAQ</a></li>
@@ -1126,7 +1128,12 @@ include 'config.php';
                 <h5 class="white-text"><?=$mofh['title'];?></h5>
                 <ul>
                     <li><a class="white-text" href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>">Home</a></li>
-                    <li><a class="white-text" href="free-hosting.php">Free Hosting</a></li>
+                    <li><a class="white-text" href="signup.php" >Signup</a></li>
+                    <li><a class="white-text" href="login.php" >Login</a></li>
+                    <li><a class="white-text" href="premium-hosting.php" >Premium Hosting</a></li>
+                    <li><a class="white-text" href="domain.php" >Domains</a></li>
+                    <li><a class="white-text" href="faq.php" >FAQ</a></li>
+                    <li><a class="white-text" href="#contact" >Contact</a></li>
                 </ul>
             </div>
             <div class="col l3 s12">
@@ -1156,10 +1163,14 @@ include 'config.php';
             </div>
         </div>
     </div>
-    <div class="footer-copyright default_color">
-        <div class="container">
-            Made with <i class="mdi-action-favorite"></i> by <a class="white-text" href="https://github.com/MOFHDevWorld">MOFHDevWorld</a>
-        </div>
+<div class="footer-copyright default_color">
+  <div class="container">
+    Made with <i class="mdi-action-favorite"></i> by <a class="white-text" href="https://github.com/MOFHDevWorld">MOFHDevWorld</a>
+    <br><br>
+      <center>&copy; <?php echo date("Y"); ?> <a href="index.php" id="logo-container" class="white-text"><?=$mofh['title'];?></a>. All rights reserved.
+   Powered by <a class="white-text" href="https://ifastnet.com/portal/aff.php?aff=<?=$mofh['affid'];?>">iFastNet</a>
+      </center>
+  </div>
     </div>
 </footer>
 

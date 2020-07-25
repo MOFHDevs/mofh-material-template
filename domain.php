@@ -14,8 +14,8 @@ include 'config.php';
 	<meta name="revisit-after" content="5 days">
 	<meta name="theme-color" content="#2196F3">
 	<meta name="twitter:card" content="summary_large_image">
-    <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/domain.php"> 
-	<meta property="og:type" content="website"> 
+    <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/domain.php">
+	<meta property="og:type" content="website">
 	<meta property="og:title" content="Domain Names - Free Professional Web Hosting">
 	<meta property="og:description" content="Easily check availability of domain names and register cheap domains securely with <?=$mofh['title'];?>. Visit us and register your domain to get many premium features for free!">
 	<meta property="og:image" content="<?=$mofh['logo'];?>">
@@ -32,10 +32,10 @@ include 'config.php';
 <!-- Pre Loader -->
 <div id="loader-wrapper">
     <div id="loader"></div>
- 
+
     <div class="loader-section section-left"></div>
     <div class="loader-section section-right"></div>
- 
+
 </div>
 
 <!--Navigation-->
@@ -43,16 +43,18 @@ include 'config.php';
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-            <a href="/" id="logo-container" class="brand-logo"><?=$mofh['title'];?></a>
+            <a href="/" id="logo-container" class="brand-logo"><?=$mofh['title'];?></a><br>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="right hide-on-med-and-down">
-                    <li itemprop="name"><a href="free-hosting.php" itemprop="url">Free Hosting</a></li>
+                    <li itemprop="name"><a href="signup.php" itemprop="url">Signup</a></li>
+                    <li itemprop="name"><a href="login.php" itemprop="url">Login</a></li>
                     <li itemprop="name"><a href="premium-hosting.php" itemprop="url">Premium Hosting</a></li>
                     <li itemprop="name"><a href="domain.php" itemprop="url">Domains</a></li>
                     <li itemprop="name"><a href="faq.php" itemprop="url">FAQ</a></li>
                     <li itemprop="name"><a href="#contact" itemprop="url">Contact</a></li>
                 </ul>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" id="nav-mobile" class="side-nav">
-                    <li itemprop="name"><a href="free-hosting.php" itemprop="url">Free Hosting</a></li>
+                    <li itemprop="name"><a href="signup.php" itemprop="url">Signup</a></li>
+                    <li itemprop="name"><a href="login.php" itemprop="url">Login</a></li>
                     <li itemprop="name"><a href="premium-hosting.php" itemprop="url">Premium Hosting</a></li>
                     <li itemprop="name"><a href="domain.php" itemprop="url">Domains</a></li>
                     <li itemprop="name"><a href="faq.php" itemprop="url">FAQ</a></li>
@@ -67,7 +69,7 @@ include 'config.php';
 <div class="container">
 <div class="text_h center header cd-headline letters type">
         <h1>
-            <span>It all starts with a domain.</span> 
+            <span>It all starts with a domain.</span>
         </h1>
 		<h3><span style="font-size: 22px;">Your first step towards a dream website.</span></h3>
 		<div class="row">
@@ -85,7 +87,7 @@ include 'config.php';
 </div>
 <br />
 <div class="clearfix"/>
-<br /> 
+<br />
             <div class="container">
                  <table class="striped highlight centered responsive-table">
         <thead>
@@ -318,7 +320,7 @@ include 'config.php';
       <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Which Domain Names Are Available?</span></div>
       <div class="collapsible-body" id="dm-faq-cb"><span>iFastNet sells a wide array of domain extensions. Including but not limited to: .com, .club, .co, .space, .us, .website, .org, .net, .me, .biz, .info, .host, .online, .site, .co.uk, and .org.uk. Plus many more. Check out our selection by entering your desired domain name above.</span></div>
     </li>
-    
+
   </ul>
 		</div>
 </div>
@@ -360,7 +362,12 @@ include 'config.php';
                 <h5 class="white-text"><?=$mofh['title'];?></h5>
                 <ul>
                     <li><a class="white-text" href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>">Home</a></li>
-                    <li><a class="white-text" href="free-hosting.php">Free Hosting</a></li>
+                    <li><a class="white-text" href="signup.php" >Signup</a></li>
+                    <li><a class="white-text" href="login.php" >Login</a></li>
+                    <li><a class="white-text" href="premium-hosting.php" >Premium Hosting</a></li>
+                    <li><a class="white-text" href="domain.php" >Domains</a></li>
+                    <li><a class="white-text" href="faq.php" >FAQ</a></li>
+                    <li><a class="white-text" href="#contact" >Contact</a></li>
                 </ul>
             </div>
             <div class="col l3 s12">
@@ -391,9 +398,13 @@ include 'config.php';
         </div>
     </div>
     <div class="footer-copyright default_color">
-        <div class="container">
-            Made with <i class="mdi-action-favorite"></i> by <a class="white-text" href="https://github.com/MOFHDevWorld">MOFHDevWorld</a>
-        </div>
+      <div class="container">
+        Made with <i class="mdi-action-favorite"></i> by <a class="white-text" href="https://github.com/MOFHDevWorld">MOFHDevWorld</a>
+        <br><br>
+          <center>&copy; <?php echo date("Y"); ?> <a href="index.php" id="logo-container" class="white-text"><?=$mofh['title'];?></a>. All rights reserved.
+       Powered by <a class="white-text" href="https://ifastnet.com/portal/aff.php?aff=<?=$mofh['affid'];?>">iFastNet</a>
+          </center>
+      </div>
     </div>
 </footer>
 

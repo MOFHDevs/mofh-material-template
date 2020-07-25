@@ -1,41 +1,53 @@
 <?php
 include 'config.php';
+$yourdomain = $_SERVER['HTTP_HOST'];
+    $yourdomain = preg_replace('/^www\./' , '' , $yourdomain);
+    $yourdomain = ucfirst($yourdomain);
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <title>FAQ's - <?=$mofh['title'];?></title>
-	<meta name="keywords" content="free, web, hosting, web hosting, faq, web site, search engine optimization, hosting, servers, faqs, frequently, asked, questions, frequently asked questions, availability, created, page">
-	<meta name="description" content="Frequently Asked Questions of <?=$mofh['title'];?> that will answer your many questions about our hosting.">
-	<meta name="author" content="MOFHDevWorld">
-	<meta name="robots" content="index, follow">
-	<meta name="revisit-after" content="5 days">
-	<meta name="theme-color" content="#2196F3">
-	<meta name="twitter:card" content="summary_large_image">
-    <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/faq.php">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="FAQ's - Free Professional Web Hosting">
-	<meta property="og:description" content="Frequently Asked Questions of <?=$mofh['title'];?> that will answer your many questions about our hosting.">
-	<meta property="og:image" content="<?=$mofh['logo'];?>">
-	<meta property="og:locale" content="en_US">
-	<link rel="canonical" href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/faq.php">
-	<link rel='shortcut icon' href="<?=$mofh['favicon'];?>">
+    <title>Login - <?=$mofh['title'];?></title>
+    <meta name="keywords" content="free, web, hosting, web hosting, faq, web site, search engine optimization, hosting, servers, faqs, frequently, asked, questions, frequently asked questions, availability, created, page">
+    <meta name="description" content="Frequently Asked Questions of <?=$mofh['title'];?> that will answer your many questions about our hosting.">
+    <meta name="author" content="MOFHDevWorld">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="5 days">
+    <meta name="theme-color" content="#2196F3">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/faq.php"> 
+    <meta property="og:type" content="website"> 
+    <meta property="og:title" content="FAQ's - Free Professional Web Hosting">
+    <meta property="og:description" content="Frequently Asked Questions of <?=$mofh['title'];?> that will answer your many questions about our hosting.">
+    <meta property="og:image" content="<?=$mofh['logo'];?>">
+    <meta property="og:locale" content="en_US">
+    <link rel="canonical" href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/faq.php">
+    <link rel='shortcut icon' href="<?=$mofh['favicon'];?>">
 
     <!-- CSS  -->
     <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
     <link href="min/custom-min.css" type="text/css" rel="stylesheet">
+   
+    <style type="text/css">
+        
+         .default_color {
+            color: black;
+
+        }
+        }
+    </style>
 </head>
 <body id="top" class="scrollspy">
 
 <!-- Pre Loader -->
 <div id="loader-wrapper">
     <div id="loader"></div>
-
+ 
     <div class="loader-section section-left"></div>
     <div class="loader-section section-right"></div>
-
+ 
 </div>
 
 <!--Navigation-->
@@ -43,7 +55,7 @@ include 'config.php';
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-            <a href="/" id="logo-container" class="brand-logo"><?=$mofh['title'];?></a><br>
+            <a href="/" id="logo-container" class="brand-logo"><?=$mofh['title'];?></a>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="right hide-on-med-and-down">
                     <li itemprop="name"><a href="signup.php" itemprop="url">Signup</a></li>
                     <li itemprop="name"><a href="login.php" itemprop="url">Login</a></li>
@@ -66,62 +78,7 @@ include 'config.php';
     </nav>
 </div>
 
-<!-- Hero -->
-<div class="section no-pad-bot" id="faq-banner">
-<div class="container">
-        <h1 class="center-align">
-            <span style="color:#fff">FAQ's</span></h1>
-			<h4 class="center-align">
-			<span style="color:#fff">Common questions before registration</span></h4>
-
-		</div>
-    </div>
-</div>
-<div class="section scrollspy" id="faq">
-<div class="container">
-        <h2 class="header text_b center">Frequently Asked Questions!</h2>
-		 <ul class="collapsible popout">
-    <li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Is your hosting really free?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Yes, you can host your website without having to pay forever.</span></div>
-    </li>
-    <li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Do I get a free subdomain?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Yes, you can get a free subdomain like yourname.<?=$mofh['domain'];?> for free!.</span></div>
-    </li>
-	<li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>How long does it takes to setup my account?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Forget about waiting lists, <?=$mofh['title'];?> accounts are automatically created in minutes.</span></div>
-    </li>
-	<li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Can I host my own domains?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Yes, you can easily host your own domain name registered elsewhere on <?=$mofh['title'];?>.</span></div>
-    </li>
-	<li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>For how long is the free hosting valid?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span><?=$mofh['title'];?> is free forever! There is no time limit for free hosting. You can sign up whenever you want and use it for as long as you want! Some people have been hosting their websites with us for years, without ever paying anything!.</span></div>
-    </li>
-	<li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Will you put ads on my site?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Never! We make enough using the ads on our main site and control panel to cover the costs.</span></div>
-    </li>
-	<li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Why do you provide free hosting?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span><?=$mofh['title'];?> provides free hosting, because we believe everyone should have the opportunity to build a presence online. Regardless of who you are, where you are and what your budget is, we believe you should be able to have a website.</span></div>
-    </li>
-	<li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Is <?=$mofh['title'];?> a demo, trial or sample for premium hosting?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Absolutely not! <?=$mofh['title'];?> is fully featured, completely free website hosting. We provide offers for alternative, paid services for people looking for more, but <?=$mofh['title'];?> is not sample for these third party offers.</span></div>
-    </li>
-
-  </ul>
-		</div>
-</div>
-<!--Footer-->
-<footer id="contact" class="page-footer default_color scrollspy">
-    <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
+<div class="col l6 s12">
                 <form class="col s12" action="contact.php" method="post">
                     <div class="row">
                       <h5 class="white-text"> Send us a message </h5>
@@ -148,6 +105,13 @@ include 'config.php';
                     </div>
                 </form>
             </div>
+
+
+<!--Footer-->
+<footer id="contact" class="page-footer default_color scrollspy">
+    <div class="container">
+        <div class="row">
+            
             <div class="col l3 s12">
                 <h5 class="white-text"><?=$mofh['title'];?></h5>
                 <ul>
@@ -189,11 +153,14 @@ include 'config.php';
     </div>
     <div class="footer-copyright default_color">
         <div class="container">
-          Made with <i class="mdi-action-favorite"></i> by <a class="white-text" href="https://github.com/MOFHDevWorld">MOFHDevWorld</a>
-          <br><br>
-          <center>&copy; <?php echo date("Y"); ?> <a href="index.php" id="logo-container" class="white-text"><?=$mofh['title'];?></a>. All rights reserved.
-       Powered by <a class="white-text" href="https://ifastnet.com/portal/aff.php?aff=<?=$mofh['affid'];?>">iFastNet</a>
-          </center>
+            <center>&copy; 2018-2019 <a class="white-text" href="index.php">Endless Freee</a>. All rights reserved.
+         Powered by <a class="aff1" href="https://ifastnet.com/portal/aff.php?aff=xxxxx" >iFastNet Premium Hosting</a>
+            </center>
+            <style type="text/css">
+              .aff1 {
+                color: white;
+              }
+            </style>
         </div>
     </div>
 </footer>
@@ -204,4 +171,5 @@ include 'config.php';
     <script src="min/custom-min.js"></script>
 
     </body>
+    
 </html>

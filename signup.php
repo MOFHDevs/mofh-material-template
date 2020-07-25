@@ -1,31 +1,43 @@
 <?php
+$id = md5(rand(6000,PHP_INT_MAX)); //Necessary for captcha, DO NOT REMOVE
+?>
+<?php
+    $yourdomain = $_SERVER['HTTP_HOST'];
+    $yourdomain = preg_replace('/^www\./' , '' , $yourdomain);
+    $yourdomain = ucfirst($yourdomain);
 include 'config.php';
+
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <title>FAQ's - <?=$mofh['title'];?></title>
-	<meta name="keywords" content="free, web, hosting, web hosting, faq, web site, search engine optimization, hosting, servers, faqs, frequently, asked, questions, frequently asked questions, availability, created, page">
-	<meta name="description" content="Frequently Asked Questions of <?=$mofh['title'];?> that will answer your many questions about our hosting.">
-	<meta name="author" content="MOFHDevWorld">
-	<meta name="robots" content="index, follow">
-	<meta name="revisit-after" content="5 days">
-	<meta name="theme-color" content="#2196F3">
-	<meta name="twitter:card" content="summary_large_image">
+    <title>Signup - <?=$mofh['title'];?></title>
+    <meta name="keywords" content="free, web, hosting, web hosting, faq, web site, search engine optimization, hosting, servers, faqs, frequently, asked, questions, frequently asked questions, availability, created, page">
+    <meta name="description" content="Signup on <?=$mofh['title'];?>.">
+    <meta name="author" content="MOFHDevWorld">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="5 days">
+    <meta name="theme-color" content="#2196F3">
+    <meta name="twitter:card" content="summary_large_image">
     <meta property="og:url" content="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/faq.php">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="FAQ's - Free Professional Web Hosting">
-	<meta property="og:description" content="Frequently Asked Questions of <?=$mofh['title'];?> that will answer your many questions about our hosting.">
-	<meta property="og:image" content="<?=$mofh['logo'];?>">
-	<meta property="og:locale" content="en_US">
-	<link rel="canonical" href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/faq.php">
-	<link rel='shortcut icon' href="<?=$mofh['favicon'];?>">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="FAQ's - Free Professional Web Hosting">
+    <meta property="og:description" content="Frequently Asked Questions of <?=$mofh['title'];?> that will answer your many questions about our hosting.">
+    <meta property="og:image" content="<?=$mofh['logo'];?>">
+    <meta property="og:locale" content="en_US">
+    <link rel="canonical" href="<?=$mofh['protocol'];?><?=$mofh['domain'];?>/faq.php">
+    <link rel='shortcut icon' href="<?=$mofh['favicon'];?>">
 
     <!-- CSS  -->
     <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
     <link href="min/custom-min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
 </head>
 <body id="top" class="scrollspy">
 
@@ -43,7 +55,7 @@ include 'config.php';
     <nav id="nav_f" class="default_color" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-            <a href="/" id="logo-container" class="brand-logo"><?=$mofh['title'];?></a><br>
+            <a href="/" id="logo-container" class="brand-logo"><?=$mofh['title'];?></a>
                 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="right hide-on-med-and-down">
                     <li itemprop="name"><a href="signup.php" itemprop="url">Signup</a></li>
                     <li itemprop="name"><a href="login.php" itemprop="url">Login</a></li>
@@ -65,58 +77,34 @@ include 'config.php';
         </div>
     </nav>
 </div>
+<input type="hidden" name="plan_name" value="free hosting">
 
-<!-- Hero -->
-<div class="section no-pad-bot" id="faq-banner">
-<div class="container">
-        <h1 class="center-align">
-            <span style="color:#fff">FAQ's</span></h1>
-			<h4 class="center-align">
-			<span style="color:#fff">Common questions before registration</span></h4>
-
-		</div>
+    <div class="login-clean">
+        <form action="https://securesignup.net/register.php" method="post" name="login">
+            <h2 class="sr-only">Signup Form</h2>
+            <div class="illustration"><i class="icon ion-ios-cloudy-night" style="color:rgb(9,124,94);"></i>
+            <!-- Change "Sign Up" below to your desired heading-->
+                <h4 style="color:rgb(84,81,81);">Sign Up</h4>
+            </div>
+            <!-- BEGIN MOFH API, BE CAREFUL WHEN EDITING-->
+            <div class="form-group"><input class="form-control" type="text" id="mod_signup_username" name="username" placeholder="Site Name"></div>
+            <div class="form-group"><input class="form-control" type="password" id="mod_signup_password" name="password" placeholder="Password"></div>
+            <div class="form-group"><input class="form-control" type="text" id="mod_signup_email" name="email" placeholder="Email Address"></div>
+            <div class="form-group"><input type=hidden name=id required value="<?PHP echo $id; ?>"><tr><th><td><div ><img width="100%" height="90px" src="https://securesignup.net/image.php?id=<?PHP echo $id; ?>"></div><td><input class="form-control text-align: center;" type="text" name="number" size="30" placeholder="Enter Captcha"><td></div>
+            <div class="form-group"><button class="btn btn-primary btn-block" type="submit" value="signup" style="background-color:rgb(9,124,94);">Sign Up</button></div><a href="login.php" class="forgot">Already have an account?</a><br><a href="https://cpanel.<?echo $yourdomain;?>/lostpassword.php" class="forgot">Forgot your password?</a></form>
+            <!--END MOFH API, it is now safe to edit-->
     </div>
-</div>
-<div class="section scrollspy" id="faq">
-<div class="container">
-        <h2 class="header text_b center">Frequently Asked Questions!</h2>
-		 <ul class="collapsible popout">
-    <li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Is your hosting really free?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Yes, you can host your website without having to pay forever.</span></div>
-    </li>
-    <li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Do I get a free subdomain?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Yes, you can get a free subdomain like yourname.<?=$mofh['domain'];?> for free!.</span></div>
-    </li>
-	<li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>How long does it takes to setup my account?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Forget about waiting lists, <?=$mofh['title'];?> accounts are automatically created in minutes.</span></div>
-    </li>
-	<li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Can I host my own domains?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Yes, you can easily host your own domain name registered elsewhere on <?=$mofh['title'];?>.</span></div>
-    </li>
-	<li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>For how long is the free hosting valid?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span><?=$mofh['title'];?> is free forever! There is no time limit for free hosting. You can sign up whenever you want and use it for as long as you want! Some people have been hosting their websites with us for years, without ever paying anything!.</span></div>
-    </li>
-	<li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Will you put ads on my site?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Never! We make enough using the ads on our main site and control panel to cover the costs.</span></div>
-    </li>
-	<li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Why do you provide free hosting?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span><?=$mofh['title'];?> provides free hosting, because we believe everyone should have the opportunity to build a presence online. Regardless of who you are, where you are and what your budget is, we believe you should be able to have a website.</span></div>
-    </li>
-	<li>
-      <div class="collapsible-header"><span style="color: #2196f3;"><i class="mdi-navigation-chevron-right"></i>Is <?=$mofh['title'];?> a demo, trial or sample for premium hosting?</span></div>
-      <div class="collapsible-body" id="dm-faq-cb"><span>Absolutely not! <?=$mofh['title'];?> is fully featured, completely free website hosting. We provide offers for alternative, paid services for people looking for more, but <?=$mofh['title'];?> is not sample for these third party offers.</span></div>
-    </li>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
-  </ul>
-		</div>
-</div>
+</noscript>
+<div style="text-align: center;"><div style="position:relative; top:0; margin-right:auto;margin-left:auto; z-index:99999">
+
+</div></div>
+
+
+
+
 <!--Footer-->
 <footer id="contact" class="page-footer default_color scrollspy">
     <div class="container">
@@ -188,13 +176,13 @@ include 'config.php';
         </div>
     </div>
     <div class="footer-copyright default_color">
-        <div class="container">
-          Made with <i class="mdi-action-favorite"></i> by <a class="white-text" href="https://github.com/MOFHDevWorld">MOFHDevWorld</a>
-          <br><br>
+      <div class="container">
+        Made with <i class="mdi-action-favorite"></i> by <a class="white-text" href="https://github.com/MOFHDevWorld">MOFHDevWorld</a>
+        <br><br>
           <center>&copy; <?php echo date("Y"); ?> <a href="index.php" id="logo-container" class="white-text"><?=$mofh['title'];?></a>. All rights reserved.
        Powered by <a class="white-text" href="https://ifastnet.com/portal/aff.php?aff=<?=$mofh['affid'];?>">iFastNet</a>
           </center>
-        </div>
+      </div>
     </div>
 </footer>
 
@@ -204,4 +192,5 @@ include 'config.php';
     <script src="min/custom-min.js"></script>
 
     </body>
+
 </html>
