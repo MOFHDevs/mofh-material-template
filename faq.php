@@ -188,13 +188,13 @@ include 'config.php';
         </div>
     </div>
     <div class="footer-copyright default_color">
-        <div class="container">
-          Made with <i class="mdi-action-favorite"></i> by <a class="white-text" href="https://github.com/MOFHDevWorld">MOFHDevWorld</a>
-          <br><br>
-          <center>&copy; <?php echo date("Y"); ?> <a href="index.php" id="logo-container" class="white-text"><?=$mofh['title'];?></a>. All rights reserved.
-       Powered by <a class="white-text" href="https://ifastnet.com/portal/aff.php?aff=<?=$mofh['affid'];?>">iFastNet</a>
-          </center>
-        </div>
+      <div class="container">
+    &copy; <?php echo date("Y"); ?> <a href="index.php" id="logo-container" class="white-text"><?=$mofh['title'];?></a>. All rights reserved.
+       Powered by <a class="white-text" href="https://ifastnet.com/portal/aff.php?aff=<?=$mofh['affid'];?>">iFastNet</a>.
+      </div>
+      <div class="container">
+        Made with <i class="mdi-action-favorite"></i> by <a class="white-text" href="https://github.com/MOFHDevWorld">MOFHDevWorld</a>
+      </div>
     </div>
 </footer>
 
