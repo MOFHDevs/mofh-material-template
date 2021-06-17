@@ -2,7 +2,7 @@
 
 
 # MOFH Material Template
-<img src="https://img.shields.io/badge/NOT-READY-red.svg?style=for-the-badge&logo=github&colorA=gold" alt="Not Ready">  
+<img src="https://img.shields.io/badge/SEMI-READY-red.svg?style=for-the-badge&logo=github&colorA=gold" alt="Semi Ready">  
 
 A Template for MyOwnFreeHost based on Material Design.
 
@@ -29,7 +29,7 @@ You don't need to customize anything here, as the script we have provided will a
 
 
 ## Copyright and Credits
-Copyright 2018 MOFHDevWorld, all rights reserved.
+Copyright 2018-2021 MOFHDevWorld, all rights reserved.
   <p>
 <a href="https://github.com/MOFHDevWorld/mofh-material-template/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/MOFHDevWorld/mofh-material-template.svg?style=for-the-badge"></a>
   </p>
