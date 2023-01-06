@@ -29,7 +29,7 @@
 
 
 ## Πνευματικά δικαιώματα
-Copyright 2018-2021 MOFHDevWorld, με επιφύλαξη παντός δικαιώματος.
+Copyright 2018-2023 MOFHDevWorld, με επιφύλαξη παντός δικαιώματος.
   <p>
 <a href="https://github.com/MOFHDevWorld/mofh-material-template/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/MOFHDevWorld/mofh-material-template.svg?style=for-the-badge"></a>
   </p>
